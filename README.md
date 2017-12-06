@@ -15,3 +15,4 @@ Install Themes
 - Go one back, then copy & paste all files with ".js" from the downloaded Zip or from the extracted Folder
 - Go into "css" Folder and then copy & paste all files with ".css" in it
 
+#### This Repository was created by EliteArtz #iksdee!
