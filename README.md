@@ -8,7 +8,7 @@ Make sure to join the DBM THEMES DISCORD SERVER. To stay updated and be able to 
 Install Themes
 - Click the green button Clone or download
 - Choose Download ZIP
-- Open ZIP and open the DBM-Mods-master folder
+- Open ZIP and open the DBM-Themes-master folder
 - After downloading open DBM
 - Click on Project
 - Click on Open Actions Directory
