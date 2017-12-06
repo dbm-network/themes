@@ -21,12 +21,14 @@ Install one Theme
 Uninstall/Change Theme
 
   For Uninstalling
+
     - Click on Project
     - Click on Open Actions Directory
     - Go one back, then copy & paste all files from "DBM theme backup" with ".js" from the downloaded Zip or from the extracted Folder and replace the old things
     - Go into "css" Folder and then copy & paste all files from "DBM theme backup/css" with ".css" in it and replace the old things
 
   For Changing
+
     - Click on Project
     - Click on Open Actions Directory
     - Go one back, then copy & paste all files from your wish-theme with ".js" from the downloaded Zip or from the extracted Folder and replace them
