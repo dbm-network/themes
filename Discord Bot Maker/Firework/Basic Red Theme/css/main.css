@@ -32,16 +32,16 @@ a:link {
 }
 
 div.action-holder {
-	width: 240px; 
-	float: left; 
-	max-width: 240px; 
+	width: 240px;
+	float: left;
+	max-width: 240px;
 	padding-top: 22px;
 }
 
 div.event-action-holder {
-	width: 240px; 
-	float: left; 
-	max-width: 240px; 
+	width: 240px;
+	float: left;
+	max-width: 240px;
 	padding-top: 22px;
 }
 
@@ -76,7 +76,7 @@ div.einfooter {
 }
 
 div.actionButtonDiv {
-	width: 90%; 
+	width: 90%;
 	padding: 10px 10px 10px 0px;
 	text-align: left;
 }
