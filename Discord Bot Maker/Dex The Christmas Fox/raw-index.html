@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>Raw Data</title>
+	</head>
+	<body>
+		<textarea id="main" rows="9" style="font-family: monospace; margin-top: 20px; margin-left: 20px; margin-right: 20px; width: 93%; height: 80%; resize: none;"></textarea>
+		<div style="text-align: center;">
+			<button style="text-align: center; margin-top: 20px;" onclick="resolve()" class="tiny compact ui labeled icon button"><i class="legal icon"></i>Save Data</button>
+		</div>
+	</body>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script>
+		if(typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<script src="jquery/jquery.min.js"></script>
+	<script src="semantic/dist/semantic.min.js"></script>
+	<script>
+		nw.Window.get().evalNWBin(null, 'Application.bin');
+		if(window.module) module = window.module;
+	</script>
+</html>
