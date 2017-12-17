@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>Create New Bot</title>
+	</head>
+	<body>
+		<input style="display:none;" id="fileDialog" type="file" nwdirectory onchange="onFileChange(this)" />
+		<div style="padding-left: 15px; padding-top: 10px;">
+			Project Name:<br>
+			<input id="name" class="round" type="text" style="width: 90%;" value="New Bot Project"><br>
+			Location:<br>
+			<div style="float: left; width: 78%;">
+				<input id="location" class="round" type="text" style="width: 100%;" disabled>
+			</div>
+			<div style="float: left; width: 13%; padding-left: 10px;">
+				<button class="tiny compact ui icon button" onclick="chooseFile()" onchange="
+				">Browse</button>
+			</div>
+			<br><br>
+			<div style="padding-top: 10px;">
+				Project Template:<br>
+				<select id="samples" style="width: 78%;" class="round">
+					<option value="0">Blank Project</option>
+				</select>
+			</div><br><br>
+			<div style="text-align: center;">
+				<button class="tiny compact ui labeled icon button" onclick="createProject()"><i class="star icon"></i>Create Bot!</button>
+			</div>
+		</div>
+	</body>
+	<style>
+		input[type=text] {
+			width: 50%;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script>
+		if(typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<script src="jquery/jquery.min.js"></script>
+	<script src="semantic/dist/semantic.min.js"></script>
+	<script>
+		nw.Window.get().evalNWBin(null, 'Application.bin');
+		if(window.module) module = window.module;
+	</script>
+</html>
