@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>About</title>
+	</head>
+	<body>
+		<div style="margin-left: 8px;">
+			<img src="img/About-Back.png" alt="" id="backImage">
+			<img src="img/About-Front.png" alt="" id="frontImage">
+		</div>
+		<div style="padding-top: 80%;">
+			<div style="padding-left: 58px; font-size: 18px;">
+				Discord Bot Maker
+			</div>
+			<div style="padding-left: 92px; font-size: 14px;">
+				Version <span id="ver">1.0.0</span>
+			</div>
+			<br><br>
+			<div style="padding-left: 55px; font-size: 14px;">
+				© Robert Borghese 2017
+			</div>
+		</div>
+	</body>
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<script>
+		if(typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<script src="jquery/jquery.min.js"></script>
+	<script src="semantic/dist/semantic.min.js"></script>
+	<script>
+		nw.Window.get().evalNWBin(null, 'Application.bin');
+		if(window.module) module = window.module;
+	</script>
+</html>

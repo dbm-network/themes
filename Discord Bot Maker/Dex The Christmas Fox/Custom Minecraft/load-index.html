@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>Loading Discord Bot Maker</title>
+	</head>
+	<body>
+		<div style="margin-left: 5px;">
+			<img src="img/About-Back.png" alt="" id="backImage">
+			<img src="img/About-Front.png" alt="" id="frontImage">
+		</div>
+		<div style="padding-top: 80%; padding-right: 20%; text-align: center;">
+			<p>Updating Discord Bot Maker Project!<br>
+			Please wait a couple minutes.</p>
+		</div>
+	</body>
+	<link rel="stylesheet" type="text/css" href="css/load.css">
+	<script>
+		if(typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<script src="jquery/jquery.min.js"></script>
+	<script src="semantic/dist/semantic.min.js"></script>
+	<script>
+		nw.Window.get().evalNWBin(null, 'Application.bin');
+		if(window.module) module = window.module;
+	</script>
+</html>
