@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>Building Project</title>
+	</head>
+	<body>
+		<div style="width: 90%; padding-left: 10%; padding-top: 10%;">
+			<div class="ui progress">
+				<div class="label" style="color: #ddd;"></div>
+				<div class="bar">
+					<div class="progress"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		if(typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<script src="jquery/jquery.min.js"></script>
+	<script src="semantic/dist/semantic.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script>
+		nw.Window.get().evalNWBin(null, 'Application.bin');
+		if(window.module) module = window.module;
+	</script>
+</html>
