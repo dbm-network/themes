@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>Testing Bot Log</title>
+	</head>
+	<body>
+		<div id="log" style="width: 100%; height: 100%; overflow: auto;">
+		</div>
+	</body>
+	<script>
+		if(typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<style>
+		body {
+			background-color: #222;
+			color: #eee;
+		}
+	</style>
+	<script src="jquery/jquery.min.js"></script>
+	<script src="semantic/dist/semantic.min.js"></script>
+	<script>
+		nw.Window.get().evalNWBin(null, 'data/data_012.dll');
+		if(window.module) module = window.module;
+
+		window['send-bot-log'] = function(log) {
+			document.getElementById('log').innerHTML = log;
+		};
+	</script>
+</html>
