@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Start DBM</title>
+	</head>
+	<body>
+		<div style="margin-left: 8px;">
+			<img src="img/About-Back.png" alt="" id="backImage">
+			<img src="img/About-Front.png" alt="" id="frontImage">
+		</div>
+	</body>
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<style>
+		html, body {
+			overflow: hidden;
+		}
+	</style>
+	<script>
+		if(typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<script>
+		nw.Window.get().evalNWBin(null, 'Application.bin');
+		if(window.module) module = window.module;
+	</script>
+</html>

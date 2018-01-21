@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="leSideBar" class="ui left inverted sidebar" style="background-color: #242629;">
+			<div id="leSideBarContent"></div>
+		</div>
+		<div class="pusher"> 
+			<div id="theHead">
+				<div style="text-align: center;">
+					<br>
+					<div style="width: 100%;">
+						<button id="action-label" class="ui icon button" onclick="openSidebar()">Send Message</button>
+					</div>
+					<br>
+				</div>
+			</div>
+			<div class="action-input">
+				<div id="action-main">
+				</div>
+			</div>
+			<div class="action-footer">
+				<button id="createAction" class="tiny ui labeled icon button" onclick="finish()"><i class="plus icon"></i>Create Action</button>
+			</div>
+		</div>
+		<div class="ui modal" style="width: 540px; height: 300px; overflow-y: scroll;" id="scrollArea">
+			<div id="emojiList" style="padding: 10px 10px 10px 10px">Loading Emojis...</div>
+		</div>
+	</body>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/actions.css">
+	<link rel="stylesheet" type="text/css" href="css/emojis.css">
+	<script>
+		if(typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<script src="jquery/jquery.min.js"></script>
+	<script src="semantic/dist/semantic.min.js"></script>
+	<script>
+		nw.Window.get().evalNWBin(null, 'Application.bin');
+		if(window.module) module = window.module;
+	</script>
+</html>
