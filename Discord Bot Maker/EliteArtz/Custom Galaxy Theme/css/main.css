@@ -1,3 +1,4 @@
+@import url("segoeui/stylesheet.css");
 p#settings-description {
 	color: #222;
 }
@@ -29,12 +30,13 @@ p#settings-description {
 }
 
 body {
-	color: #C634FF;
+	color: #D66DFF;
 	background-image: url(../img/background_00000.png);
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
 	transition: 0.5s;
+	font-family: segoeui;
 }
 
 body.running {
@@ -46,16 +48,20 @@ body.running {
 	animation-duration: 2s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
+	font-family: segoeui;
+	text-shadow: 1px 2px 4px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
 }
 
 a:link {
-	color: #99b3ff;
+	color: #FF9999;
 }
 
 div.action-holder {
-	width: 240px; 
-	float: left; 
-	max-width: 240px; 
+	width: 240px;
+	float: left;
+	max-width: 240px;
 	padding-top: 22px;
 }
 
@@ -69,6 +75,7 @@ div.event-action-holder {
 select#commands {
 	overflow: hidden;
 	height: 120px;
+	border-top-left-radius: 0px;
 }
 
 select#actions {
@@ -138,8 +145,9 @@ div.tabs button.active {
 div.myactions {
 	overflow-y: auto;
 	overflow-x: hidden;
-	border: 1px solid #ccc;
-	background-color: #53585f;
+	border: 2px solid #C9B7FF;
+	background-color: #58535F;
+	border-radius: 5px;
 }
 
 div.myactions button {
@@ -148,7 +156,7 @@ div.myactions button {
 	height: 20px;
 	text-align: left;
 	color: #e3e5e8;
-	background-color: #53585f;
+	background-color: #58535F;
 	float: left;
 	border: none;
 	outline: none;
@@ -157,18 +165,18 @@ div.myactions button {
 }
 
 div.myactions button:hover {
-	background-color: #777e88;
+	background-color: #7F7788;
 }
 
 div.myactions button.active {
-	background-color: #4676b9;
+	background-color: #7546B9;
 }
 
 div.emyactions {
 	overflow: auto;
 	overflow-x: hidden;
-	border: 1px solid #ccc;
-	background-color: #53585f;
+	border: 2px solid #ccc;
+	background-color: #57535F;
 }
 
 div.emyactions button {
@@ -176,8 +184,8 @@ div.emyactions button {
 	width: 100%;
 	height: 20px;
 	text-align: left;
-	color: #e3e5e8;
-	background-color: #53585f;
+	color: #E5E3E8;
+	background-color: #58535F;
 	float: left;
 	border: none;
 	outline: none;
@@ -186,11 +194,11 @@ div.emyactions button {
 }
 
 div.emyactions button:hover {
-	background-color: #777e88;
+	background-color: #7E7788;
 }
 
 div.emyactions button.active {
-	background-color: #4676b9;
+	background-color: #7246B9;
 }
 
 .page {
@@ -201,6 +209,7 @@ input {
 	color: #e3e5e8;
 	background-color: #53585f;
 	padding-bottom: 2px;
+	font-family: segoeui;
 }
 
 textarea {
@@ -211,6 +220,7 @@ textarea {
 	box-sizing: border-box;
 	display: block;
 	padding-left: 8px;
+	font-family: segoeui;
 }
 
 textarea:focus {
