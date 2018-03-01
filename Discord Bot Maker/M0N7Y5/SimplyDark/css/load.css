@@ -1,0 +1,75 @@
+body {
+    background-color: #36393e;
+    color: #ccc;
+    font-size: 13px;
+}
+
+img {
+    position: absolute;
+}
+
+@keyframes rotation {
+    from {}
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scaling {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+#backImage {
+    margin-left: -5px;
+    margin-top: 10px;
+    width: 250px;
+    -webkit-animation: rotate-center 1s ease-in-out infinite both;
+    animation: rotate-center 1s ease-in-out infinite both;
+}
+
+#frontImage {
+    margin-left: 45px;
+    margin-top: 55px;
+    width: 140px;
+    animation-name: scaling;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
