@@ -1,5 +1,5 @@
 # DBM-Themes
-[![release](http://github-release-version.herokuapp.com/github/Discord-Bot-Maker-Themes/DBM-Themes/release.svg?style=flat)](https://github.com/Discord-Bot-Maker-Themes/DBM-Themes/releases/latest)
+[![release](http://github-release-version.herokuapp.com/github/Discord-Bot-Maker-Mods/DBM-Themes/release.svg?style=flat)](https://github.com/Discord-Bot-Maker-Mods/DBM-Themes/releases/latest)
 
 Here are some Themes for Discord Bot Maker! Feel free to use them in your bots. But please, if you want to share this files please share the URL of this GitHub page. Then everyone can have the latest update!
 
