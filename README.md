@@ -12,23 +12,19 @@ Make sure to join the DBM THEMES DISCORD SERVER to stay updated and be able to s
   4. Open ZIP and open the DBM-Themes-master folder
 
 ### Install
+Tutorial - German: https://youtu.be/CscI0uxtdEU (Made by EliteArtz)
   1. After downloading, open DBM
   2. Click on Project
   3. Click on Open Actions Directory
-  4. Go back to previous directory and then copy & paste all files from your wish-theme  with ".js" from the downloaded Zip or from the extracted Folder and replace them
-  5. Go into "css" Folder and then copy & paste all files with ".css" and replace them
+  4. Go back to previous directory and then copy & paste all files from your wish-theme and replace them
 
 ### Uninstall
-  1. Click on Project
-  2. Click on Open Actions Directory
-  3. Go one back, then copy & paste all files from "DBM theme backup" with ".js" from the downloaded Zip or from the extracted Folder and replace the old things
-  4. Go into "css" Folder and then copy & paste all files from "DBM theme backup/css" with ".css" in it and replace the old things
+  1. Only Verify your DBM in Steam.
 
 ### Modify
-  1. Click on Project
+  1. Open DBM and Click on Project
   2. Click on Open Actions Directory
-  3. Go one back, then copy & paste all files from your wish-theme with ".js" from the downloaded Zip or from the extracted Folder and replace them
-  4. Go into "css" Folder and then copy & paste all files from "DBM theme backup/css" with ".css" in it and replace them
+  4. Go back to previous directory and then copy & paste all files from your wish-theme and replace them
 
 `If any mistake is found, tell us!`
 
