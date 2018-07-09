@@ -1,0 +1,24 @@
+.emojiButton {
+	background-color: #bd7d17; /* Green */
+	border: none;
+	color: black;
+	width: 36px;
+	height: 36px;
+	padding: 2px 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: #ccc; 
+	color: white; 
+	border: 2px solid #bd7d17;
+}
+
+.emojiButton:hover {
+	background-color: #bd7d17;
+	color: white;
+}
