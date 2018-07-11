@@ -110,20 +110,20 @@ input[type=text] {
 }
 
 #leSideBar::-webkit-scrollbar {
-	width: 12px;
+	width: 8px;
 	background-color: grey;
 }
 
 #leSideBar::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px black;
+	-webkit-box-shadow: inset 0 0 6px grey;
 	border-radius: 10px;
 	background-color: #bd7d17;
 }
 
 #leSideBar::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px black;
-	background-color: #bd7d1788;
+	-webkit-box-shadow: inset 0 0 6px grey;
+	background-color: grey;
 }
 
 input::-webkit-calendar-picker-indicator {

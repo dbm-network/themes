@@ -118,11 +118,12 @@ div.tabs button {
 	width: 33%;
 	background-color: #bd7d178c;
 	float: left;
-	border: 1px solid black;
+	border: 2px solid black;
 	outline: none;
 	cursor: pointer;
 	padding: 12px 20px;
 	transition: 0.2s;
+	color: black;
 }
 
 div.tabs button:hover {
@@ -360,12 +361,12 @@ select.round {
 
 ::-webkit-scrollbar-track {
 	background-color: #bd7d17;
-	-webkit-box-shadow: inset 0 0 6px black;
+	-webkit-box-shadow: inset 0 0 6px grey;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #bd7d178a;
-	-webkit-box-shadow: inset 0 0 6px black;
+	background-color: grey;
+	-webkit-box-shadow: inset 0 0 6px #bd7d17;
 	border-radius: 4px;
 }
 

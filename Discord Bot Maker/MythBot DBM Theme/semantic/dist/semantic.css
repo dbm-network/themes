@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
+ @import url("https://fonts.googleapis.com/css?family=Aclonica");
 /*!
  * # Semantic UI 2.2.10 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -441,7 +441,7 @@ input[type="search"]::-webkit-search-decoration {
  */
 
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 2px solid #bd7d17;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
