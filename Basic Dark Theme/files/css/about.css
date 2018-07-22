@@ -1,5 +1,5 @@
 body {
-	background-color: #708d81;
+	background-color: #2D2C2C;
 }
 
 img {
@@ -27,7 +27,7 @@ img {
 
 #backImage {
 	animation-name: rotation;
-	animation-duration: 5s;
+	animation-duration: 12s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 }

@@ -18,13 +18,13 @@ p#settings-description {
 
 body {
 	color: #ccc;
-	background-color: #36393e;
+	background-color: #2D2C2C;
 	overflow: hidden;
 	transition: 0.5s;
 }
 
 body.running {
-	background-color: #001427 !important;
+	background-color: #1B1B1B;
 }
 
 a:link {
@@ -205,15 +205,15 @@ select {
 }
 
 button#a_tab {
-	background-color: #4676b9;
+	background-color: #6E6E6E;
 }
 
 button#a_tab.active, button#a_tab.active:hover {
-	background-color: #315381;
+	background-color: #585858;
 }
 
 button#a_tab:hover {
-	background-color: #3f6aa6;
+	background-color: #474747;
 }
 
 input::selection {
