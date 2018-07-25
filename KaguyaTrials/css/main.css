@@ -1,0 +1,324 @@
+p#settings-description {
+	color: #1a0033;
+}
+
+.ui.multiple.dropdown > .label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	font-size: 1em;
+	padding: 0.35714286em 0.78571429em;
+	margin: 0.14285714rem 0.28571429rem 0.14285714rem 0em;
+	box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+}
+
+body {
+	color: #8080ff;
+	background-image: url(img/kaguyatrials.png);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	transition: 0.5s;
+	
+}
+.ui.button {
+	background: #5900b3;
+	color:#ffffff;
+	font-weight: bold;
+}
+
+
+body.running {
+	background-color: #21004d !important;
+	background-image: url(img/kaguyatrials.png);
+	background-size: cover;
+	background-position: center;
+	animation-name: scaling;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	text-shadow: 1px 2px 4px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+
+a:link {
+	color: #b3ecff;
+}
+
+div.action-holder {
+	width: 240px; 
+	float: left; 
+	max-width: 240px; 
+	padding-top: 22px;
+}
+
+div.event-action-holder {
+	width: 240px; 
+	float: left; 
+	max-width: 240px; 
+	padding-top: 22px;
+}
+
+select#commands {
+	overflow: hidden;
+	height: 120px;
+}
+
+select#actions {
+	overflow: hidden;
+	position: static;
+	font-weight: bold;
+}
+
+div.footer {
+	position: static;
+	float: right;
+	width: 100%;
+	height: 100%;
+	right: 0px;
+	bottom: 100px;
+	left: 220px;
+	/*top: 400px;*/
+	text-align: left;
+}
+
+div.infooter {
+	padding-top: 49px;
+}
+
+div.einfooter {
+	padding-top: 77px;
+}
+
+div.actionButtonDiv {
+	width: 90%; 
+	padding: 10px 10px 10px 0px;
+	text-align: left;
+}
+
+button.actionButtons {
+	width: 120px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: right;	
+}
+
+div.tabs {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+div.tabs button {
+	width: 33%;
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 12px 20px;
+	transition: 0.2s;
+	font-weight: bold;
+}
+
+div.tabs button:hover {
+	background-color: #9933ff;
+}
+
+div.tabs button.active {
+	background-color: #8c1aff;
+}
+
+div.myactions {
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: 1px solid #e6ccff;
+	background-color: #1a0033;
+}
+
+div.myactions button {
+	overflow: hidden;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	color: #ffffff;
+	background-color: #400080;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+div.myactions button:hover {
+	background-color: #4d0099;
+}
+
+div.myactions button.active {
+	background-color: #cc99ff;
+}
+
+div.emyactions {
+	overflow: auto;
+	overflow-x: hidden;
+	border: 1px solid #e6ccff;
+	background-color: #1a0033;
+}
+
+div.emyactions button {
+	overflow: hidden;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	color: #ffffff;
+	background-color: #400080;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+div.emyactions button:hover {
+	background-color: #4d0099;
+}
+
+div.emyactions button.active {
+	background-color: #cc99ff;
+}
+
+.page {
+	display: none;
+}
+
+input {
+	color: #e3e5e8;
+	background-color: #1a0033;
+	padding-bottom: 2px;
+}
+
+textarea {
+	color: #FFFFFF;
+	background-color: #1a0033;
+	border: 1px solid #FFFFFF;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	padding-left: 8px;
+	font-size: 15px;
+}
+
+textarea:focus {
+	outline-width: 0;
+}
+
+textarea::selection {
+	background: #e6ccff;
+}
+
+select {
+	color: #ffffff;
+	background-color: #1a0033;
+	outline-width: 0;
+	box-shadow: -4px 0px 0px rgb(63, 89, 182);
+	border: 2px solid #CC99FF;
+	height: 28px;
+	padding-left: 8px;
+	transition: box-shadow 150ms ease;
+}
+
+button#a_tab {
+	background-color: #6600cc;
+}
+
+button#a_tab.active, button#a_tab.active:hover {
+	background-color: #6600ff;
+}
+
+button#a_tab:hover {
+	background-color: #6600ff;
+}
+
+input::selection {
+	background: #bb99ff;
+}
+
+input:focus {
+	outline-width: 0;
+}
+
+input#name, input#ename, input#alias-input, input#etemp, input#etemp2 {
+	border: 1px solid #CC99FF;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+input.settings {
+	font-family: monospace;
+	width: 100%;
+	border: 1px solid #CC99FF;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+input.round {
+	width: 100%;
+	border: 1px solid #CC99FF;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+select.round {
+	width: 100%;
+	border: 1px solid #CC99FF;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 8px;
+	background-color: #4D3A60;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #4D3A60;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #ccb3ff;
+}
+
+#aliases, #moduleManager {
+	height: 380px;
+	border-radius: 10px;
+	background-color: #1a0033;
+	background-image: url(img/kaguyatrials.png);
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.modalChild {
+	height: 240px;
+	margin-left: 70px;
+	margin-top: 15px;
+	overflow-y: scroll;
+}
