@@ -1,0 +1,409 @@
+p#settings-description {
+	color: black;
+	background-color: transparent;
+}
+
+.ui.multiple.dropdown > .label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	font-size: 1em;
+	padding: 0.35714286em 0.78571429em;
+	margin: 0.14285714rem 0.28571429rem 0.14285714rem 0em;
+	box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+}
+
+body {
+	background-image: url('https://wallpapersite.com/images/wallpapers/razer-3840x2160-logo-dark-background-3d-green-hd-4k-14279.jpg');
+	background-size: contain;
+	width: auto;
+	height: auto;
+	color: #00b300;
+	overflow: hidden;
+	transition: 0.7s;
+	font-weight: bold;
+}
+
+.ui.button {
+	background: #4d4d4d;
+	color:black;
+	font-weight: bold;
+}
+
+.ui.button:hover {
+	background: #00b300;
+	color: black;
+	font-weight: bold;
+}
+
+.ui.button:active {
+	background: #00b300;
+	color: black;
+}
+
+button#a_tab_com {
+	background: #4d4d4d;
+	color: #00e600;
+	border: 2px solid #00b300;
+	border-radius: 3px;
+}
+
+button#a_tab_com:hover {
+	background: #00b300;
+	color: black;
+	font-weight: bold;
+	border: 2px solid #4d4d4d;
+	border-radius: 3px;
+}
+
+button#a_tab_com.active {
+	background: #00e600;
+	color: black;
+	border: 2px solid #4d4d4d;
+	border-radius: 3px;
+}
+
+button#a_tab_eve {
+	background: #4d4d4d;
+	color: #00e600;
+	border: 2px solid #00e600;
+	border-radius: 3px;
+}
+
+button#a_tab_eve:hover {
+	background: #00b300;
+	color: black;
+	font-weight: bold;
+	border: 2px solid #4d4d4d;
+	border-radius: 3px;
+}
+
+button#a_tab_eve.active {
+	background: #00e600;
+	color: black;
+	border: 2px solid #4d4d4d;
+	border-radius: 3px;
+}
+
+button#a_tab_sets {
+	background: #4d4d4d;
+	color: #00e600;
+	border: 2px solid #00e600;
+	border-radius: 3px;
+}
+
+button#a_tab_sets:hover {
+	background: #00b300;
+	color: black;
+	font-weight: bold;
+	border: 2px solid #4d4d4d;
+	border-radius: 3px;
+}
+
+button#a_tab_sets.active {
+	background: #00e600;
+	color: black;
+	border: 2px solid #4d4d4d;
+	border-radius: 3px;
+}
+
+body.running {
+	background-color: rgb(52, 60, 71) !important;
+}
+
+a:link {
+	color: #00b300;
+}
+
+div.action-holder {
+	width: 240px; 
+	float: left; 
+	max-width: 240px; 
+	padding-top: 22px;
+}
+
+div.event-action-holder {
+	width: 240px; 
+	float: left; 
+	max-width: 240px; 
+	padding-top: 22px;
+}
+
+select#commands {
+	overflow: hidden;
+	height: 120px;
+}
+
+select#actions {
+	overflow: hidden;
+	position: static;
+	font-weight: bold;
+}
+
+div.footer {
+	position: static;
+	float: right;
+	width: 100%;
+	height: 100%;
+	right: 0px;
+	bottom: 100px;
+	left: 220px;
+	/*top: 400px;*/
+	text-align: left;
+}
+
+div.infooter {
+	padding-top: 49px;
+}
+
+div.einfooter {
+	padding-top: 77px;
+}
+
+div.actionButtonDiv {
+	width: 90%; 
+	padding: 10px 10px 10px 0px;
+	text-align: left;
+}
+
+button.actionButtons {
+	width: 120px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: right;	
+}
+
+div.tabs {
+	overflow: hidden;
+	border: 1px solid #00e600;
+	background-color: #4d4d4d;
+}
+
+div.tabs button {
+	width: 33%;
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 12px 20px;
+	transition: 0.2s;
+	font-weight: bold;
+}
+
+div.tabs button:hover {
+	background-color: #4d4d4d;
+}
+
+div.tabs button.active {
+	background-color: #4d4d4d;
+}
+
+div.myactions {
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: 3px solid #00b300;
+	background-color: transparent;
+}
+
+div.myactions button {
+	overflow: hidden;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	color: #00e600;
+	background-color: black;
+	border: 1px solid #00e600;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+	opacity: 0.9;
+}
+
+div.myactions button:hover {
+	background-color: #008000;
+	color: black;
+	border: 1px solid #00e600;
+}
+
+div.myactions button.active {
+	background-color: #008000;
+	color: black;
+	border: 1px solid #00e600;
+}
+
+div.emyactions {
+	overflow: auto;
+	overflow-x: hidden;
+	border: 3px solid #00b300;
+	background-color: transparent;
+}
+
+div.emyactions button {
+	overflow: hidden;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	color: #00e600;
+	background-color: black;
+	border: 1px solid #00e600;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+	opacity: 0.9;
+}
+
+div.emyactions button:hover {
+	background-color: #00b300;
+	color: black;
+	border: 1px solid #00e600;
+}
+
+div.emyactions button.active {
+	background-color: #00b300;
+	color: black;
+	border: 1px solid #00e600;
+}
+
+.page {
+	display: none;
+}
+
+input {
+	color: #00e600;
+	background-color: transparent;
+	border: 2px solid #00e600;
+	padding-bottom: 2px;
+}
+
+textarea {
+	color: #00e600;
+	background-color: transparent;
+	border: 3px solid #00e600;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	padding-left: 8px;
+	font-size: 15px;
+}
+
+textarea:focus {
+	outline-width: 2;
+}
+
+textarea::selection {
+	background: #4d4d4d;
+}
+
+select {
+	color: #00e600;
+	background-color: transparent;
+	outline-width: 0;
+	box-shadow: -4px 0px 0px #4d4d4d;
+	border: 2px solid #00e600;
+	height: 28px;
+	padding-left: 8px;
+	transition: box-shadow 150ms ease;
+	font-weight: bold;
+}
+
+button#a_tab {
+	background-color: #4d4d4d;
+	color: #00e600;
+}
+
+button#a_tab.active, button#a_tab.active:hover {
+	background-color: #4d4d4d;
+	color: black;
+}
+
+button#a_tab:hover {
+	background-color: #4d4d4d;
+	color: #00e600;
+}
+
+input::selection {
+	background: #4d4d4d;
+	color: #00e600;
+}
+
+input:focus {
+	outline-width: 0;
+}
+
+input#name, input#alias-input, input#ename, input#etemp, input#etemp2 {
+	border: 1px solid #4d4d4d;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+input.settings {
+	font-family: monospace;
+	width: 100%;
+	border: 1px solid #4d4d4d;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+input.round {
+	width: 100%;
+	border: 1px solid #4d4d4d;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+select.round {
+	width: 100%;
+	border: 1px solid #4d4d4d;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 8px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #4d4d4d;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #00e600;
+}
+
+#aliases, #moduleManager {
+	height: 380px;
+	border-radius: 10px;
+	background-color: transparent;
+	
+}
+
+.modalChild {
+	height: 240px;
+	margin-left: 70px;
+	margin-top: 15px;
+	overflow-y: scroll;
+}
+

@@ -1,0 +1,162 @@
+#action-label {
+	padding: 10px 15px 10px 15px;
+	cursor: pointer;
+	outline: none;
+	
+}
+
+button.opener {
+	background-color: #4d4d4d;
+	color: #00e600;
+	cursor: pointer;
+	padding: 3px;
+	width: 100%;
+	border: 1px solid #00e600;
+	text-align: left;
+	outline: 1px;
+	font-size: 14px;
+	transition: 0.4s;
+	opacity: 0.9;
+}
+
+button.opener.active {
+	color: black;
+	background-color: #008000;
+}
+
+button.openerChild {
+	background-color: #4d4d4d;
+	color: #00e600;
+	cursor: pointer;
+	padding: 3px;
+	width: 100%;
+	border: 1px solid #00e600;
+	float: center;
+	text-align: left;
+	outline: 1px;
+	font-size: 12px;
+	opacity: 0.9;
+}
+
+button.openerChild.active, button.openerChild:hover {
+	background-color: #008000;
+	color: black;
+	border: 1px solid #00e600;
+}
+
+button.opener:after {
+	content: '◄';
+	color: #00e600;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+button.openerChild:after {
+	content: '▪';
+	color: #00e600;
+	float: right;
+	margin-left: 5px;
+}
+
+button.openerChild:after {
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+	border: 1px solid #00e600;
+}
+
+button.opener.active:after {
+	content: "▼";
+	color: black;
+}
+
+div.dropContent {
+	background-color: transparent;
+	color: #00e600;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.ui.dropdown {
+	text-align: center;
+	width: 200px;
+}
+
+input[type=text] {
+	width: 90%;
+}
+
+.action-input {
+	margin: 0 auto;
+	padding-top: 6px;
+	max-width: 640px;
+	width: 94%;
+	height: 80%;
+}
+
+.action-input h1 {
+	margin-top: 0;
+}
+
+#theHead {
+	right: 0;
+	top: 0;
+	left: 0;
+	background-color: #23272A;
+	text-align: center;
+}
+
+.action-footer {
+	width: 100%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #23272A;
+	text-align: center;
+}
+
+#leSideBarContent {
+	margin-right: 10px;
+	width: 227px;
+}
+
+#leSideBar {
+	width: 232px;
+	margin: 10px;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 8px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #4d4d4d;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #00e600;
+}
+
+#aliases, #moduleManager {
+	height: 380px;
+	border-radius: 10px;
+	background-color: transparent;
+	
+}
+
+input::-webkit-calendar-picker-indicator {
+	opacity: 100;
+	background-color: transparent;
+	transform: scale(0.7, 0.7);
+}
+
+input::-webkit-calendar-picker-indicator:hover {
+	background-color: transparent;
+}
