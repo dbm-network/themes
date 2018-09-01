@@ -1,4 +1,4 @@
-# DBM Themes
+# DBM Version 1.3.0+ Themes
 
 Here are some Themes for Discord Bot Maker! Feel free to use them in your bots. If you want to share these files, please share the URL of this GitHub page for the latest updates!
 
