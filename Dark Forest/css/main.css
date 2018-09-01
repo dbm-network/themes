@@ -1,0 +1,386 @@
+p#settings-description {
+	color: #222;
+}
+
+.ui.multiple.dropdown > .label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	font-size: 1em;
+	padding: 0.35714286em 0.78571429em;
+	margin: 0.14285714rem 0.28571429rem 0.14285714rem 0em;
+	box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+}
+
+body {
+	color: #ccc;
+	background: url('../css/images/forest.jpg');
+	background-position: center middle;
+	background-size: 150%;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+body.running {
+	background-color: #001427 !important;
+}
+
+a:link {
+	color: #99b3ff;
+}
+
+div.action-holder {
+	width: 240px; 
+	float: left; 
+	max-width: 240px; 
+	padding-top: 22px;
+}
+
+div.event-action-holder {
+	width: 240px; 
+	float: left; 
+	max-width: 240px; 
+	padding-top: 22px;
+}
+
+select#commands {
+	overflow: hidden;
+	height: 120px;
+}
+
+select#actions {
+	overflow: hidden;
+	position: static;
+}
+
+div.footer {
+	position: static;
+	float: right;
+	width: 100%;
+	height: 100%;
+	right: 0px;
+	bottom: 100px;
+	left: 220px;
+	/*top: 400px;*/
+	text-align: left;
+}
+
+div.infooter {
+	padding-top: 49px;
+}
+
+div.einfooter {
+	padding-top: 77px;
+}
+
+div.actionButtonDiv {
+	width: 90%; 
+	padding: 10px 10px 10px 0px;
+	text-align: left;
+}
+
+button.actionButtons {
+	width: 120px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: right;
+}
+
+div.tabs {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #111111;
+}
+
+div.tabs button {
+	width: 33%;
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 12px 20px;
+	transition: 0.2s;
+}
+
+div.tabs button:hover {
+	background-color: #ddd;
+}
+
+div.tabs button.active {
+	background-color: #ccc;
+}
+
+div.myactions {
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: 1px solid #03172F;
+	background-color: #18191d;
+	opacity: .875;
+	transition: 0.5s;
+	border-radius: 0.28571429rem;
+}
+
+div.myactions:hover {
+	border: 1px solid #2565b3;
+	color: #e6e6e6;
+}
+
+div.myactions button {
+	overflow: hidden;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	color: #a0a0a0;
+	background-color: #18191d;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+div.myactions button:hover {
+	background-color: #2f3033;
+	color: #e6e6e6;
+}
+
+div.myactions button.active {
+	background-color: #353946;
+	color: #e6e6e6;
+}
+
+div.emyactions {
+	overflow: auto;
+	overflow-x: hidden;
+	border: 1px solid #03172F;
+	background-color: #18191d;
+	opacity: .875;
+	transition: 0.5s;
+	border-radius: 0.28571429rem;
+}
+
+div.emyactions:hover {
+	border: 1px solid #2565b3;
+	color: #e6e6e6;
+}
+
+div.emyactions button {
+	overflow: hidden;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	color: #a0a0a0;
+	background-color: #18191d;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+div.emyactions button:hover {
+	background-color: #2f3033;
+	color: #e6e6e6;
+}
+
+div.emyactions button.active {
+	background-color: #353946;
+	color: #e6e6e6;
+}
+
+.page {
+	display: none;
+}
+
+input {
+	color: #a0a0a0;
+	background-color: #18191d;
+	border: 1px solid #03172F;
+	opacity: .875;
+	padding-bottom: 2px;
+}
+
+.settings.round {
+	color: #a0a0a0;
+	background-color: #18191d;
+	border: 1px solid #03172F;
+	opacity: .875;
+	padding-bottom: 2px;
+	transition: 0.5s;
+}
+
+.settings.round:hover {
+	color: #e6e6e6;
+	border: 1px solid #2565b3;
+}
+
+.settings.round:active {
+	color: #e6e6e6;
+	opacity: 1;
+	border: 1px solid #2565b3;
+}
+
+textarea {
+	color: #a0a0a0;
+	background-color: #18191d;
+	border: 1px solid #03172F;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	padding-left: 8px;
+	transition: 0.5s;
+}
+
+textarea:hover {
+	border: 1px solid #2565b3;
+	color: 
+}
+
+textarea:focus {
+	outline-width: 0;
+}
+
+textarea::selection {
+	background: #b8dbff;
+}
+
+select {
+	color: #e3e5e8;
+	background-color: #53585f;
+}
+
+button#a_tab {
+	background-color: #19273a;
+}
+
+button#a_tab.active, button#a_tab.active:hover {
+	background-color: #28374d;
+}
+
+button#a_tab:hover {
+	background-color: #28374d;
+}
+
+input::selection {
+	background: #b8dbff;
+}
+
+input:focus {
+	outline-width: 0;
+}
+
+input#name, input#alias-input, input#ename, input#etemp, input#etemp2 {
+	border: 1px solid #03172F;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+	transition: 0.5s
+}
+
+input#name:hover, input#alias-input:hover, input#ename:hover, input#etemp:hover, input#etemp2:hover {
+	border: 1px solid #2565b3;
+	color: #e6e6e6;
+}
+
+input.settings {
+	font-family: monospace;
+	width: 100%;
+	border: 1px solid #03172F;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+	transition: 0.5s;
+}
+
+input.settings:hover {
+	border: 1px solid #2565b3;
+	color: #e6e6e6;
+}
+
+input.round {
+	width: 100%;
+	border: 1px solid #3a3a3a;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+	transition: 0.5s;
+}
+
+input.round:hover, input.round:active {
+	border: 1px solid #ececec;
+	color: #ececec;
+}
+
+.round {
+	background: #18191d;
+	color: #a0a0a0;
+}
+
+.round:hover {
+	color: #ececec;
+	background: #202124
+}
+
+select.round {
+	width: 100%;
+	border: 1px solid #3a3a3a;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+	transition: 0.5s;
+}
+
+select.round:hover, select.round:active {
+	border: 1px solid #ececec;
+	color: #ececec;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background-color: #222325;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #222325;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #24384d;
+	border-radius: 3px;
+}
+
+#aliases, #moduleManager {
+	height: 380px;
+	border-radius: 10px;
+	background-color: #252525;
+	border: 2px solid black;
+}
+
+.modalChild {
+	height: 240px;
+	margin-left: 70px;
+	margin-top: 15px;
+	overflow-y: scroll;
+}
+
+.ui.piled.segment {
+	background: #181818;
+	opacity: .875;
+	color: white;
+}
+
+

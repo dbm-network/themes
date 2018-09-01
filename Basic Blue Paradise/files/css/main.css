@@ -1,0 +1,294 @@
+p#settings-description {
+	color: #222;
+}
+
+.ui.multiple.dropdown > .label {
+	background-color: #073277;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	font-size: 1em;
+	padding: 0.35714286em 0.78571429em;
+	margin: 0.14285714rem 0.28571429rem 0.14285714rem 0em;
+	box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+}
+
+body {
+	color: #ccc;
+	background-color: #073277;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+body.running {
+	background-color: #002a6d !important;
+}
+
+a:link {
+	color: #000000;
+}
+
+div.action-holder {
+	width: 240px;
+	float: left;
+	max-width: 240px;
+	padding-top: 22px;
+}
+
+div.event-action-holder {
+	width: 240px;
+	float: left;
+	max-width: 240px;
+	padding-top: 22px;
+}
+
+select#commands {
+	overflow: hidden;
+	height: 120px;
+}
+
+select#actions {
+	overflow: hidden;
+	position: static;
+}
+
+div.footer {
+	position: static;
+	float: right;
+	width: 100%;
+	height: 100%;
+	right: 0px;
+	bottom: 100px;
+	left: 220px;
+	/*top: 400px;*/
+	text-align: left;
+}
+
+div.infooter {
+	padding-top: 49px;
+}
+
+div.einfooter {
+	padding-top: 77px;
+}
+
+div.actionButtonDiv {
+	width: 90%;
+	padding: 10px 10px 10px 0px;
+	text-align: left;
+}
+
+button.actionButtons {
+	width: 120px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: right;
+}
+
+div.tabs {
+	overflow: hidden;
+	border: 1px solid #9126bf;
+	background-color: #9126bf;
+}
+
+div.tabs button {
+	width: 33%;
+	background-color: #631584;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 12px 20px;
+	transition: 0.2s;
+}
+
+div.tabs button:hover {
+	background-color: #360d47;
+}
+
+div.tabs button.active {
+	background-color: #360d47;
+}
+
+div.myactions {
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: 1px solid #631584;
+	background-color: #6d248c;
+}
+
+div.myactions button {
+	overflow: hidden;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	color: #100e11;
+	background-color: #b499bf;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+div.myactions button:hover {
+	background-color: #777e88;
+}
+
+div.myactions button.active {
+	background-color: #4676b9;
+}
+
+div.emyactions {
+	overflow: auto;
+	overflow-x: hidden;
+	border: 1px solid #ccc;
+	background-color: #689be2;
+}
+
+div.emyactions button {
+	overflow: hidden;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	color: #000000;
+	background-color: #b3c2d8;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+div.emyactions button:hover {
+	background-color: #777e88;
+}
+
+div.emyactions button.active {
+	background-color: #4676b9;
+}
+
+.page {
+	display: none;
+}
+
+input {
+	color: #000000;
+	background-color: #85a0c4;
+	padding-bottom: 2px;
+}
+
+textarea {
+	color: #000000;
+	background-color: #85a0c4;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	padding-left: 8px;
+}
+
+textarea:focus {
+	outline-width: 0;
+}
+
+textarea::selection {
+	background: #b8dbff;
+}
+
+select {
+	color: #000000;
+	background-color: #627691;
+}
+
+button#a_tab {
+	background-color: #8ba2c4;
+}
+
+button#a_tab.active, button#a_tab.active:hover {
+	background-color: #4f6a91;
+}
+
+button#a_tab:hover {
+	background-color: ##6f86a8;
+}
+
+input::selection {
+	background: #a8caed;
+}
+
+input:focus {
+	outline-width: 0;
+}
+
+input#name, input#alias-input, input#ename, input#etemp, input#etemp2 {
+	border: 1px solid #eee;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+input.settings {
+	font-family: monospace;
+	width: 100%;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+input.round {
+	width: 100%;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+select.round {
+	width: 100%;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background-color: #36393e;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #36393e;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #e0e1e2;
+}
+
+#aliases, #moduleManager {
+	height: 380px;
+	border-radius: 10px;
+	background-color: #36393e;
+	border: 2px solid black;
+}
+
+.modalChild {
+	height: 240px;
+	margin-left: 70px;
+	margin-top: 15px;
+	overflow-y: scroll;
+}
