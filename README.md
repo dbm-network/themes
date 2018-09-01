@@ -4,6 +4,15 @@
 
 Here are some Themes for Discord Bot Maker! Feel free to use them in your bots. If you want to share these files, please share the URL of this GitHub page for the latest updates!
 
+### Credits
+
+  Default - The Original Theme - by SRDude
+  Firewatch / Firewatch Night by SeikiMatt. 
+  Default Redux by SeikiMatt. (New Theme Base W/ DevKit)
+  Apocalypse Theme by BrainStorm.
+  Death Note Theme by iTrqPss.
+
+
 ### Download
   1. Go to `https://github.com/Discord-Bot-Maker-Mods/DBM-Themes/`
   2. Click the green button Clone or download

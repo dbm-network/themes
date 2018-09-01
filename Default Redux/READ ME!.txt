@@ -1,0 +1,7 @@
+extract themeredux-devkit.zip;
+
+To start the SASS compiler open this folder in cmd and run 
+
+npm run sass
+
+After that just edit whatever files in the SCSS and save them, when they are saved the compiler will automatically render them out as CSS in the main folder.

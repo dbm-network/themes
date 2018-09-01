@@ -1,0 +1,374 @@
+/*Theme by iTrqPss, large credit to SeikiMatt for the code he provided in our SAO Theme which was reused ehre*/
+
+
+p#settings-description {
+	color: #222;
+}
+
+.ui.multiple.dropdown > .label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	font-size: 1em;
+	padding: 0.35714286em 0.78571429em;
+	margin: 0.14285714rem 0.28571429rem 0.14285714rem 0em;
+	box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+}
+
+body {
+	color: #ffffff;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	transition: 0.5s;
+	
+}
+
+body.running {
+	color: #ffffff;
+	background-image: url(images/rbackground.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	transition: 0.5s;
+	
+}
+
+a:link {
+	color: #99b3ff;
+}
+
+div.action-holder {
+	width: 240px; 
+	float: left; 
+	max-width: 240px; 
+	padding-top: 22px;
+}
+
+div.event-action-holder {
+	width: 240px; 
+	float: left; 
+	max-width: 240px; 
+	padding-top: 22px;
+}
+
+select#commands {
+	overflow: hidden;
+	height: 120px;
+}
+
+select#actions {
+	overflow: hidden;
+	position: static;
+}
+
+div.footer {
+	position: static;
+	float: right;
+	width: 100%;
+	height: 100%;
+	right: 0px;
+	bottom: 100px;
+	left: 220px;
+	/*top: 400px;*/
+	text-align: left;
+}
+
+div.infooter {
+	padding-top: 49px;
+}
+
+div.einfooter {
+	padding-top: 77px;
+}
+
+div.actionButtonDiv {
+	width: 90%; 
+	padding: 10px 10px 10px 0px;
+	text-align: left;
+}
+
+button.actionButtons {
+	width: 120px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: right;
+}
+
+div.tabs {
+	overflow: hidden;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+div.tabs button {
+	width: 33%;
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 12px 20px;
+	transition: 0.2s;
+}
+
+div.tabs button:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.tabs button.active {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+div.myactions {
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: #A1000000;
+}
+
+div.myactions button { 
+	overflow: hidden;
+	width: 100%;
+	height: 30px;
+	text-align: left;
+	color: #e3e5e8;
+	background-color: rgba(0, 0, 0, 0.4);
+	float: left;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+	height: 30px !important;
+	padding: 5px !important;
+  }
+
+div.myactions button:hover {
+	background-color: #777e88;
+}
+
+div.myactions button.active {
+	background-color: #A569BD;
+}
+
+div.emyactions {
+	overflow: auto;
+	overflow-x: hidden;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+div.emyactions button { 
+	overflow: hidden;
+	width: 100%;
+	height: 30px;
+	text-align: left;
+	color: #e3e5e8;
+	background-color: rgba(0, 0, 0, 0.4);
+	float: left;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+	height: 30px !important;
+	padding: 5px !important;
+  }
+
+div.emyactions button:hover {
+	background-color: #777e88;
+}
+
+div.emyactions button.active {
+	background-color: #A569BD;
+}
+
+.page {
+	display: none;
+}
+
+input {
+	color: #ffffff;
+	background-color: #A1000000;
+	padding-bottom: 2px;
+}
+
+textarea {
+	color: #ffffff;
+	background-color: #242629;
+	border: 1px solid rgba(0, 0, 0, 0.200);
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	padding-left: 8px;
+}
+
+textarea:focus {
+	outline-width: 0;
+}
+
+textarea::selection {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+select {
+	color: #e3e5e8;
+	background-color: rgba(105, 95, 95, 0.55);
+}
+
+button#a_tab_com, button#a_tab_eve, button#a_tab_sets {
+	background-color: #A569BD;
+}
+
+button#a_tab_com.active, button#a_tab_com.active:hover,
+button#a_tab_eve.active, button#a_tab_eve.active:hover,
+button#a_tab_sets.active, button#a_tab_sets.active:hover {
+	background-color: #315381;
+}
+
+button#a_tab_com:hover,
+button#a_tab_eve:hover,
+button#a_tab_sets:hover {
+	background-color: #3f6aa6;
+}
+
+input::selection {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+input:focus {
+	outline-width: 0;
+}
+
+input#name, input#alias-input, input#ename, input#etemp, input#etemp2 {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+input.settings {
+	font-family: monospace;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	float: left;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+	height: 30px !important;
+	padding: 5px !important;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+input.round {
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+select.round {
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background-color: #36393e;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #36393e;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #e0e1e2;
+}
+
+#aliases, #moduleManager {
+	height: 380px;
+	border-radius: 10px;
+	background-color: #36393e;
+	border: 2px solid black;
+}
+
+.modalChild {
+	height: 240px;
+	margin-left: 70px;
+	margin-top: 15px;
+	overflow-y: scroll;
+}
+
+.ui.piled.segment::after { /* This removes the folded paper-like edges from the box */
+	background-color: rgba(0, 0, 0, 0);
+	content: "";
+	height: 0;
+	left: 0px;
+	width: 0;
+	border: 0;
+	box-shadow: "";
+  }
+  
+  .ui.piled.segment:first-of-type { /* Reduces size of the box and applies a transition */
+	transition: all 0.1s ease-in-out;
+	height: 45px;
+  }
+  
+  #settingsheader::after { /* add "Info (hover)" to the end of "Settings" */
+	content: " Info (hover)";
+  }
+  
+  .ui.piled.segment:first-of-type #settings-description { /* Hides the info as default */
+	display: none;
+  }
+  
+  .ui.piled.segment:first-of-type:hover > #settings-description { /* Shows the info when you hover your mouse over it */
+	display: block;
+  }
+  
+  .ui.piled.segment:first-of-type:hover { /* Expands the box so you are able to see the text, and also makes the box slide open from the transition we added */
+  
+	height: 125px;
+  }
+
+  .ui.selection.dropdown {
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+	background-color: rgba(0, 0, 0, 0.4)
+  }
+
+  .ui.settings.dropdown {
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+	background-color: rgba(0, 0, 0, 0.4)
+  }
