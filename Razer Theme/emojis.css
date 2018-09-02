@@ -1,0 +1,36 @@
+body {
+	background-size: contain;
+	background-image: url(./img/wallpaper.png);
+	width: auto;
+	height: auto;
+	color: black;
+	overflow: hidden;
+	transition: 0.7s;
+	font-weight: bold;
+	
+}
+
+.emojiButton {
+	background-color: transparent; 
+	border: none;
+	color: #2C2F33;
+	width: 32px;
+	height: 36px;
+	padding: 2px 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 1px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: #4d4d4d; 
+	color: #00b300; 
+	border: 2px solid #00e600;
+}
+
+.emojiButton:hover {
+	background-color: #00b300;
+	color: black;
+}
