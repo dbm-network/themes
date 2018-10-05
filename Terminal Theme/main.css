@@ -1,0 +1,461 @@
+p#settings-description {
+	color: #6CED49;
+}
+
+.ui.multiple.dropdown > .label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	font-size: 1em;
+	padding: 0.35714286em 0.78571429em;
+	margin: 0.14285714rem 0.28571429rem 0.14285714rem 0em;
+	box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+}
+
+body {
+	color: #6CED49;
+	background-color: #1D1F21;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+body.running {
+	background-color: #282A2E !important;
+}
+
+a:link {
+	color: #6CED49;
+}
+
+div.action-holder {
+	width: 240px; 
+	float: left; 
+	max-width: 240px; 
+	padding-top: 22px;
+}
+
+div.event-action-holder {
+	width: 240px; 
+	float: left; 
+	max-width: 240px; 
+	padding-top: 22px;
+}
+
+select#commands {
+	overflow: hidden;
+	height: 120px;
+}
+
+select#actions {
+	overflow: hidden;
+	position: static;
+}
+
+div.footer {
+	position: static;
+	float: right;
+	width: 100%;
+	height: 100%;
+	right: 0px;
+	bottom: 100px;
+	left: 220px;
+	/*top: 400px;*/
+	text-align: left;
+}
+
+div.infooter {
+	padding-top: 49px;
+}
+
+div.einfooter {
+	padding-top: 77px;
+}
+
+div.actionButtonDiv {
+	width: 90%; 
+	padding: 10px 10px 10px 0px;
+	text-align: left;
+}
+
+button.actionButtons {
+	width: 120px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: right;
+}
+
+div.tabs {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+div.tabs button {
+	width: 33%;
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 12px 20px;
+	transition: 0.2s;
+}
+
+div.tabs button:hover {
+	background-color: #ddd;
+}
+
+div.tabs button.active {
+	background-color: #ccc;
+}
+
+div.myactions {
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: 1px solid #222222;
+	border-radius: 4px;
+	background-color: #141414;
+}
+
+div.myactions button {
+	overflow: hidden;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	color: #6CED49;
+	background-color: #141414;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+div.myactions button:hover {
+	background-color: #1a1a1a;
+	border-left: 3px solid #6CED49;
+	color: #6CED49;
+}
+
+div.myactions button.active {
+	background-color: #1b1b1b;
+	border-left: 3px solid #6CED49;
+	color: #6CED49;
+}
+
+div.emyactions {
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: 1px solid #222222;
+	border-radius: 4px;
+	background-color: #141414;
+}
+
+div.emyactions button {
+	overflow: hidden;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	color: #6CED49;
+	background-color: #141414;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+div.emyactions button:hover {
+	background-color: #1a1a1a;
+	border-left: 3px solid #7e7e7e;
+	color: #7e7e7e;
+}
+
+div.emyactions button.active {
+	background-color: #1b1b1b;
+	border-left: 3px solid #6CED49;
+	color: #6CED49;
+}
+
+.page {
+	display: none;
+}
+
+input {
+	color: #a7a7a7;
+	background-color: #141414;
+	padding-bottom: 2px;
+	transition: 0.25s;
+}
+
+textarea {
+	color: #6CED49;
+	border: 1px solid #222222;
+	background: #141414;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	padding-left: 8px;
+	transition: 0.25s;
+}
+
+textarea:focus {
+	outline-width: 0;
+}
+
+textarea::selection {
+	background: #2e2e2e;
+}
+
+select {
+	outline: none;
+	color: #6CED49;
+	background-color: #2e2e2e;
+}
+
+button#a_tab_com, button#a_tab_eve, button#a_tab_sets {
+	background-color: #202020;
+	color: #6CED49;
+	transition: 0.25s;
+}
+
+button#a_tab_com.active, button#a_tab_com.active:hover,
+button#a_tab_eve.active, button#a_tab_eve.active:hover,
+button#a_tab_sets.active, button#a_tab_sets.active:hover {
+	background-color: #272727;
+	color: #6CED49;
+}
+
+button#a_tab_com:hover,
+button#a_tab_eve:hover,
+button#a_tab_sets:hover {
+	background-color: #272727;
+	color: #6CED49;
+}
+
+input::selection {
+	background: #b8dbff;
+}
+
+input:focus {
+	outline-width: 0;
+}
+
+input:hover, input#name:hover, input#alias-input:hover, input#ename:hover, input#etemp:hover, input#etemp2:hover, input.settings:hover {
+	color: #6CED49;
+	border-left: 3px solid #6CED49;
+	background: #1a1a1a;
+}
+
+input:active, input#name:active, input#alias-input:active, input#ename:active, input#etemp:active, input#etemp2:active, input.settings:active {
+	color: #6CED49;
+	border-left: 3px solid #6CED49;
+	background: #1b1b1b;
+}
+
+input:focus, input#name:focus, input#alias-input:focus, input#ename:focus, input#etemp:focus, input#etemp2:focus, input.settings:focus {
+	color: #6CED49;
+	border-left: 3px solid #6CED49;
+	background: #1b1b1b;
+}
+
+input#name, input#alias-input, input#ename, input#etemp, input#etemp2 {
+	border: 1px solid #222222;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+input.settings {
+	font-family: monospace;
+	width: 100%;
+	border: 1px solid #222222;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+input.round {
+	width: 100%;
+	border: 1px solid #222222;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+select.round {
+	width: 100%;
+	border: 1px solid #222222;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background-color: #373B41;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #373B41;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #6CED49;
+	border-radius: 6px;
+}
+
+#aliases, #moduleManager {
+	height: 380px;
+	border-radius: 10px;
+	background-color: #181818;
+	border: 2px solid black;
+}
+
+.modalChild {
+	height: 240px;
+	margin-left: 70px;
+	margin-top: 15px;
+	overflow-y: scroll;
+}
+
+/*******************************
+******* CUSTOM OVERRIDES *******
+*******************************/
+
+.ui.button {
+	background-color: #202020;
+	color: #6CED49;
+	transition: 0.25s;
+}
+
+.ui.button:hover {
+	background-color: #131313;
+	color: #6CED49;
+}
+
+.ui.button:focus {
+	background: #1b1b1b;
+	color: #6CED49;
+}
+
+.ui.fluid.dropdown,
+.ui.dropdown {
+	color: #6CED49;
+	border: 1px solid #222222;
+	background: #141414;
+	transition: 0.25s;
+}
+
+.ui.fluid.dropdown:hover,
+.ui.dropdown:hover {
+	color: #6CED49;
+	border: 1px solid #222222;
+	border-left: 3px solid #6CED49;
+	background: #1a1a1a;
+}
+
+.ui.fluid.dropdown:active, 
+.ui.fluid.dropdown:focus,
+.ui.dropdown:active,
+.ui.dropdown:focus {
+	color: #6CED49;
+	border: 1px solid #222222;
+	border-left: 3px solid #6CED49;
+	background: #1b1b1b;
+}
+
+.ui.fluid.dropdown > .menu,
+.ui.dropdown > .menu {
+	background: #1b1b1b;
+	border: 1px solid #222222;
+	box-shadow: none;
+}
+
+.ui.dropdown .menu .active.item {
+	border-left: 3px solid #ffffff;
+	color: #6CED49;
+	background: #1b1b1b;
+	font-weight: normal;
+}
+
+.ui.dropdown .menu > .item {
+	color: #949494;
+}
+
+.ui.dropdown .menu > .item:hover {
+	color: #7e7e7e;
+	border-left: 3px solid #7e7e7e;
+	background: #1a1a1a;
+}
+
+.ui.selection.dropdown .menu > .item {
+	border-top: 1px solid #222222;
+	transition: 0.25s;
+}
+
+.ui.selection.dropdown:hover {
+	border: 1px solid #222222;
+}
+
+.ui.selection.dropdown:hover {
+	border-color: #222222;
+	box-shadow: none;
+  }
+
+.ui.selection.active.dropdown,
+.ui.selection.active.dropdown .menu {
+	border-color: #222222;
+	box-shadow: 0px 2px 6px 2px #000;
+}
+  
+.ui.selection.dropdown:focus,
+.ui.selection.dropdown:focus .menu {
+	border-color: #222222;
+	box-shadow: 0px 2px 6px 2px #000;
+}
+
+.ui.selection.active.dropdown,
+.ui.selection.active.dropdown:active,
+.ui.selection.active.dropdown:active .menu,
+.ui.selection.active.dropdown:hover,
+.ui.selection.active.dropdown:hover .menu {
+	border-color: #222222;
+	box-shadow: 0px 2px 6px 2px #000;
+}
+
+.settings.round {
+	color: #6CED49;
+	border: 1px solid #222222;
+	background: #141414;
+}
+
+select:active, select:hover,
+select:focus {
+	outline: none;
+}
+
+.ui.piled.segments, 
+.ui.piled.segment {
+	height: 0px;
+	width: 0px;
+	background: #131313;
+	padding: 0px;
+	margin-top: -20px;
+	overflow: hidden;
+	margin-top: -25%;
+	margin-bottom: -5px
+}
