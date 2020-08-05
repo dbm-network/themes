@@ -2,7 +2,14 @@
 	padding: 10px 15px 10px 15px;
 	cursor: pointer;
 	outline: none;
-}
+	background-color: #fff;
+	animation: rainbow 5s infinite;
+    background-color: rgba(0, 0, 0, 0.5); }
+    @keyframes rainbow {
+      00.000%   {    color:#690e4e       }
+      50.000%   {    color:#0b95a9 }   
+      100.000%   {    color:#690e4e   }
+    }
 
 button.opener {
 	background-color: #690e4e;      
@@ -38,14 +45,14 @@ button.openerChild:hover {
 
 button.opener:after {
 	content: '+';
-	color: #000;
+	color: #fff;
 	font-weight: bold;
 	float: right;
 	margin-left: 5px;
 }
 
 button.openerChild:after {
-	color: #000;
+	color: #fff;
 	font-weight: bold;
 	float: right;
 	margin-left: 5px;
@@ -86,6 +93,15 @@ input[type=text] {
 	margin-top: 0;
 }
 
+#theHead {
+	right: 0;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	text-align: center;
+
+}
+
 .action-footer {
 	width: 100%;
 	position: absolute;
@@ -120,17 +136,17 @@ input[type=text] {
 
 #leSideBar::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	background-color: #ececec;
+	background-color: #fff;
 }
 
 input::-webkit-calendar-picker-indicator {
 	opacity: 100;
-	background-color: transparent;
+	background-color: #1f7a77;
 	transform: scale(0.7, 0.7);
 }
 
 input::-webkit-calendar-picker-indicator:hover {
-	background-color: transparent;
+	background-color: #fff;
 }
 
 input#searchfilter {
