@@ -4,6 +4,8 @@
 
 + I do not own any pictures or gifs in this theme.
 
++ Based off of the "Lo Fi Vibe" theme.
+
 ![Preview](./img/preview.png)
 
 ![Preview](./img/preview2.png)
