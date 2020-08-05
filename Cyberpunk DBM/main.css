@@ -169,7 +169,7 @@
     background-color: rgba(0, 0, 0, 0.8); }
     @keyframes rainbow {
       00.000%   {    color:#690e4e       }
-      50.000%   {    color:#0b95a9 }   
+      50.000%   {    color:#0b95a9 }
       100.000%   {    color:#690e4e   }
     }
   #id_pages .ui.button:hover, #id_pages .ui.button:focus,
@@ -182,7 +182,7 @@
     background-color: #464441; }
     @keyframes rainbow {
       00.000%   {    color:#690e4e       }
-      50.000%   {    color:#0b95a9 }   
+      50.000%   {    color:#0b95a9 }
       100.000%   {    color:#690e4e   }
   }
   #id_pages .ui.button.active,
@@ -190,7 +190,7 @@
     box-shadow: none;
     animation: rainbow 5s infinite linear;
     background-color: black; }
-    
+
 #id_pages .ui.piled.segment:first-of-type #settings-description,
 #id_tabs_main .ui.piled.segment:first-of-type #settings-description {
   display: none; }
@@ -358,7 +358,7 @@ div.myactions, div.emyactions {
     background-color: rgba(0, 0, 0, 0.5); }
     @keyframes rainbow {
       00.000%   {    color:#690e4e       }
-      50.000%   {    color:#0b95a9 }   
+      50.000%   {    color:#0b95a9 }
       100.000%   {    color:#690e4e   }
   }
 
@@ -367,7 +367,7 @@ div.myactions, div.emyactions {
     background-color: rgba(0, 0, 0, 0.5); }
     @keyframes rainbow {
       00.000%   {    color:#690e4e       }
-      50.000%   {    color:#0b95a9 }   
+      50.000%   {    color:#0b95a9 }
       100.000%   {    color:#690e4e   }
     }
   div.myactions button.active, div.emyactions button.active {
@@ -375,7 +375,7 @@ div.myactions, div.emyactions {
     background-color: rgba(0, 0, 0, 0.5); }
     @keyframes rainbow {
       00.000%   {    color:#690e4e       }
-      50.000%   {    color:#0b95a9 }   
+      50.000%   {    color:#0b95a9 }
       100.000%   {    color:#690e4e   }
     }
 .page {
@@ -449,30 +449,25 @@ select.round {
 	  color: white;
 	  transition: 0.25s;
   }
-  
   .ui.button:hover {
 	  background-color: #111111;
 	  color: #fff;
   }
-  
   .ui.button:focus {
 	  background: #1b1b1b;
 	  color: #e3e5e8;
   }
 
 
-  
   .settings.round {
 	  color: #fff;
 	  border: 1px solid #222222;
 	  background: #1414146e;
   }
-  
   select:active, select:hover,
   select:focus {
 	  outline: none;
 	}
-	
 	body.pushable > .pusher {
   background-color: #1d1c1cf8 !important;
 	background-position: bottom !important;
@@ -481,29 +476,22 @@ select.round {
 	background-position: right;
 	overflow: hidden;
 	}
-    
-  
 
 
-
-  
   .ui.button {
     outline: none;
     background-color: #0f0f0f;
     color: #949494;
     transition: 0.25s;
   }
-  
   .ui.button:hover {
     background-color: #111111;
     color: #e3e5e8;
   }
-  
   .ui.button:focus {
     background: #1b1b1b;
     color: #e3e5e8;
   }
-  
   .ui.fluid.dropdown,
   .ui.dropdown {
     color: #525252;
@@ -511,7 +499,6 @@ select.round {
     background: #1a1a1a;
     transition: 0.25s;
   }
-  
   .ui.fluid.dropdown:hover,
   .ui.dropdown:hover {
     color: #042EBC;
@@ -519,25 +506,21 @@ select.round {
     border-left: 3px solid #7e7e7e;
     background: #1a1a1a;
   }
-  
-  .ui.fluid.dropdown:active, 
+  .ui.fluid.dropdown:active,
   .ui.fluid.dropdown:focus,
   .ui.dropdown:active,
   .ui.dropdown:focus {
     color: #ececec;
-    
     border-left: 3px solid #ececec;
     background: rgb(5, 5, 5);
     opacity: 0.99;
   }
-  
   .ui.fluid.dropdown > .menu,
   .ui.dropdown > .menu {
     background: #0B0B0B;
     border: 1px solid #222222;
     box-shadow: none;
   }
-  
   .ui.dropdown .menu .active.item {
     border-left: 3px solid;
     background: rgb(5, 5, 5);
@@ -545,45 +528,36 @@ select.round {
     opacity: 0.99;
     animation: rainbow 5s infinite linear;
   }
-  
   .ui.dropdown .menu > .item {
     color: #949494;
   }
-  
   .ui.dropdown .menu > .item:hover {
-    
     border-left: 3px solid;
     animation: rainbow 5s infinite linear;
     opacity: 1;
     background: #1a1a1a;
   }
-  
   .ui.selection.dropdown .menu > .item {
     border-top: 1px solid #222222;
     transition: 0.25s;
   }
-  
   .ui.selection.dropdown:hover {
     border: 1px solid #222222;
   }
-  
   .ui.selection.dropdown:hover {
     border-color: #222222;
     box-shadow: none;
     }
-  
   .ui.selection.active.dropdown,
   .ui.selection.active.dropdown .menu {
     border-color: #222222;
     box-shadow: 0px 2px 6px 2px #000;
   }
-    
   .ui.selection.dropdown:focus,
   .ui.selection.dropdown:focus .menu {
     border-color: #222222;
     box-shadow: 0px 2px 6px 2px #000;
   }
-  
   .ui.selection.active.dropdown,
   .ui.selection.active.dropdown:active,
   .ui.selection.active.dropdown:active .menu,
@@ -592,34 +566,30 @@ select.round {
     border-color: #222222;
     box-shadow: 0px 2px 6px 2px #000;
   }
-  
   .settings.round {
     color: #525252;
     border: 1px solid #222222;
     background: #141414;
   }
-  
   select:active, select:hover,
   select:focus {
     outline: none;
     background-color: #1E1D1D;
     animation: bgColor 5s infinite linear;
   }
-  
   @keyframes bgColor {
     00.000% {
       background-color: #690e4e;
     }
     50.000% {
-      background-color: #0b95a9;  
+      background-color: #0b95a9;
     }
     100.000% {
       background-color: #690e4e;
     }
-    
     }
 
-  .ui.piled.segments, 
+  .ui.piled.segments,
   .ui.piled.segment {
   display: none;
   }
@@ -628,21 +598,15 @@ select.round {
   }
 
   div.myactions button:hover {
-    
     background-color: #1a1a1a;
     border-left: 3px solid;
     opacity: 1;
     animation: rainbow 5s infinite linear;
-    
   }
-  
   div.myactions button.active {
     background-color: #1b1b1b;
     animation: rainbow 5s infinite linear;
-    
     border-left: 3px solid;
-    
-    
   }
   div.emyactions button{
     outline: none;
@@ -653,10 +617,8 @@ select.round {
     opacity: 1;
     animation: rainbow 5s infinite linear;
   }
-  
   div.emyactions button.active {
     background-color: #1b1b1b;
     animation: rainbow 5s infinite linear;
-    
     border-left: 3px solid;
   }
