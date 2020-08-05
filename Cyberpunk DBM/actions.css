@@ -7,12 +7,12 @@
     background-color: rgba(0, 0, 0, 0.5); }
     @keyframes rainbow {
       00.000%   {    color:#690e4e       }
-      50.000%   {    color:#0b95a9 }   
+      50.000%   {    color:#0b95a9 }
       100.000%   {    color:#690e4e   }
     }
 
 button.opener {
-	background-color: #690e4e;      
+	background-color: #690e4e;
 	color: #fff;
 	cursor: pointer;
 	padding: 8px;
@@ -37,7 +37,7 @@ button.openerChild {
 	transition: 0.25s;
 }
 
-button.openerChild.active, 
+button.openerChild.active,
 button.openerChild:hover {
 	background-color: #1edeee;
 	color: #eee;
