@@ -57,11 +57,7 @@ button.openerChild:after {
 	float: right;
 	margin-left: 5px;
 }
-
-button.opener.active:after {
-	content: "-";
-}
-
+button.opener.active:after { content: "-"; }
 div.dropContent {
 	background-color: purple;
 	max-height: 0;
@@ -74,13 +70,9 @@ div.dropContent {
 	width: 200px;
 }
 
-input[type=text] {
-	width: 90%;
-}
+input[type=text] { width: 90%;}
 
-.action-main {
-	background: purple;
-}
+.action-main { background: purple; }
 .action-input {
 	margin: 0 auto;
 	padding-top: 6px;
@@ -89,9 +81,7 @@ input[type=text] {
 	height: 80%;
 }
 
-.action-input h1 {
-	margin-top: 0;
-}
+.action-input h1 { margin-top: 0; }
 
 #theHead {
 	right: 0;
