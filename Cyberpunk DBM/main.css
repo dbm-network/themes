@@ -259,9 +259,7 @@ body {
   transition: 0.5s; }
   body.running {
     background-color: #001427 !important; }
-
-a:link {
-  color: #00b7ff; }
+    a:link { color: #00b7ff; }
 
 select#commands {
   overflow: hidden;
@@ -282,11 +280,9 @@ div.footer {
   /*top: 400px;*/
   text-align: left; }
 
-div.infooter {
-  padding-top: 49px; }
+  div.infooter { padding-top: 49px; }
 
-div.einfooter {
-  padding-top: 77px; }
+  div.einfooter { padding-top: 77px; }
 
 div.actionButtonDiv {
   width: 90%;
@@ -378,9 +374,7 @@ div.myactions, div.emyactions {
       50.000%   {    color:#0b95a9 }
       100.000%   {    color:#690e4e   }
     }
-.page {
-  display: none; }
-
+    .page { display: none; }
 textarea {
   color: #e3e5e8;
   background-color: black;
@@ -578,24 +572,15 @@ select.round {
     animation: bgColor 5s infinite linear;
   }
   @keyframes bgColor {
-    00.000% {
-      background-color: #690e4e;
-    }
-    50.000% {
-      background-color: #0b95a9;
-    }
-    100.000% {
-      background-color: #690e4e;
-    }
-    }
+    00.000% { background-color: #690e4e; }
+    50.000% { background-color: #0b95a9; }
+    100.000% { background-color: #690e4e; }
+  }
 
   .ui.piled.segments,
-  .ui.piled.segment {
-  display: none;
-  }
-  div.myactions button{
-    outline: none;
-  }
+  .ui.piled.segment { display: none; }
+
+  div.myactions button{ outline: none; }
 
   div.myactions button:hover {
     background-color: #1a1a1a;
@@ -608,9 +593,7 @@ select.round {
     animation: rainbow 5s infinite linear;
     border-left: 3px solid;
   }
-  div.emyactions button{
-    outline: none;
-  }
+  div.emyactions button{ outline: none; }
   div.emyactions button:hover {
     background-color: #1a1a1a;
     border-left: 3px solid;
