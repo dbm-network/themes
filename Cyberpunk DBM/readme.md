@@ -1,13 +1,17 @@
 # CyberPunk DBM
+
 + Made by borgar#2819
+
 + Based off on the "Lo Fi Vibe" Theme.
-+ I do not own any pictures or gifs in this theme. (The background gif is made by @AffinityPlay on Twitter!)
+
++ I do __NOT__ own any pictures or gifs in this theme. (The background gif is made by @AffinityPlay on Twitter!)
 
 ![Preview](./img/preview.png)
 
 ![Preview](./img/preview2.png)
 
 ## Installation Guide
+
 ---------------------
 
 1. Click Clone Or Download
@@ -21,6 +25,7 @@
 > Congrats! Now you are officialy using the theme DBM CYBERPUNK! Have fun developing.
 
  ## Support
+
 ---------------------
 
 borgar#2819
