@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.css">
+	<link rel="stylesheet" type="text/css" href="variables.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>Action Editor</title>
+	</head>
+	<body>
+		<div id="leSideBar" class="ui left inverted sidebar" style="background-color: #242629;">
+			<div class="input-field" style="margin: 7px;width: 210px !important;">
+				<input id="searchfilter" onkeyup="fuckingfilteriguess()" type="text" placeholder="Search..." style="overflow: hidden; width: 210px !important">
+			</div>
+			<div id="leSideBarContent"></div>
+		</div>
+		<div class="pusher"> 
+			<div id="theHead">
+				<div style="text-align: center;">
+					<br>
+					<div style="width: 100%;">
+						<button id="action-label" class="ui icon button" onclick="openSidebar()">Send Message</button>
+					</div>
+					<br>
+				</div>
+			</div>
+			<div class="action-input">
+				<div id="action-main">
+				</div>
+			</div>
+			<div class="action-footer">
+				<button id="createAction" class="tiny ui labeled icon button" onclick="finish()"><i class="plus icon"></i><span id="createaction">Create Action</span></button>
+			</div>
+		</div>
+		<div class="ui modal" style="width: 540px; height: 300px; overflow-y: scroll;" id="scrollArea">
+			<div id="emojiList" style="padding: 10px 10px 10px 10px"><span id="loadingemojis">Loading Emojis...</span></div>
+		</div>
+	</body>
+	<link rel="stylesheet" type="text/css" id="maintheme" href="../../themes/Default/main.css">
+	<link rel="stylesheet" type="text/css" id="actionstheme" href="./actions.css">
+	<link rel="stylesheet" type="text/css" id="emojistheme" href="./emojis.css">
+	<script>
+		if(typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<script src="../../jquery/jquery.min.js"></script>
+	<script src="../../semantic/dist/semantic.min.js"></script>
+	<script>
+		nw.Window.get().evalNWBin(null, 'Application.bin');
+		if(window.module) module = window.module;
+		window.setTimeout(() =>{ alert(document.getElementById("action-main").innerHTML);},100);
+	</script>
+</html>

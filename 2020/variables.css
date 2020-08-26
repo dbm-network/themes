@@ -1,0 +1,59 @@
+:root {
+    /*Color of Background*/
+    --bg: #181a1b;
+    --bg-img: url(https://i.redd.it/fxlb9eda42a31.jpg);
+
+    /* Main Color*/
+    --main-blue: #792e2e;
+    
+
+    /* Main Color when it's active */
+    --main-blue-active: #491c1c;
+
+
+    /* Main Color when it's hovered*/
+    --main-blue-hover: #8b3737;
+    
+
+    /* Main Grey*/
+    --main-grey:  #3d4046;
+
+
+    /* Main Grey when it's hovered*/
+    --main-grey-hover: #4f545a;
+
+    
+    /* Main Dark-Grey*/
+	--main-darkgrey: #26272b;
+}
+
+
+/* Action window Rounding (Uncomment to activate) */
+/*
+
+#theHead:after {
+	content: '';
+	width: 100%;
+	position: absolute;
+	height: 40px;
+	top: 100%;
+	left: 0;
+	background: transparent;
+	z-index: -1;
+	box-shadow: 0 -20px 0 #242629;
+	border-radius: 10px 10px 0 0;
+}
+
+.action-footer:after {
+	content: '';
+	width: 100%;
+	position: absolute;
+	height: 40px;
+	bottom: 100%;
+	left: 0;
+	background: transparent;
+	z-index: -1;
+	box-shadow: 0 20px 0 #242629;
+	border-radius: 0 0 10px 10px;
+}
+*/

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.css">
+	<link rel="stylesheet" type="text/css" href="variables.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>Create New Bot</title>
+	</head>
+	<body>
+		<div class="bg_overlay"></div>
+		<input style="display:none;" id="fileDialog" type="file" nwdirectory onchange="onFileChange(this)" />
+		<div style="padding-left: 15px; padding-top: 10px;">
+			<span class="helperbox" id="projectname">Project Name:</span><br>
+			<input id="name" class="round" type="text" style="width: 90%;" value="New Bot Project"><br>
+			<span class="helperbox" id="locationlabel">Location:</span><br>
+			<div style="float: left; width: 78%;">
+				<input id="location" class="round" type="text" style="width: 100%;" disabled>
+			</div>
+			<div style="float: left; width: 13%; padding-left: 10px;">
+				<button id="browsebutton" class="tiny compact ui icon button" onclick="chooseFile()" onchange="
+				">Browse</button>
+			</div>
+			<br><br>
+			<div style="padding-top: 10px;width: 90%;">
+				<span class="helperbox" id="projecttemp">Project Template:</span><br>
+				<select id="samples" class="round">
+					<option value="0" id="blankproject">Blank Project</option>
+				</select>
+			</div><br><br>
+			<div style="text-align: center;">
+				<button class="tiny compact ui labeled icon button" onclick="createProject()"><i class="star icon"></i><span id="createbot">Create Bot!</span></button>
+			</div>
+		</div>
+	</body>
+	<style>
+		input[type=text] {
+			width: 50%;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" id="maintheme" href="../../themes/Default/main.css">
+	<script>
+		if(typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<script src="../../jquery/jquery.min.js"></script>
+	<script src="../../semantic/dist/semantic.min.js"></script>
+	<script src="js/configReaderWriter.js"></script>
+	<script>
+		nw.Window.get().evalNWBin(null, 'Application.bin');
+		if(window.module) module = window.module;
+	</script>
+</html>
