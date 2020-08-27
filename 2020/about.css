@@ -9,10 +9,9 @@ img {
 
 @keyframes rotation {
 	from {}
-	to {
-		transform: rotate(360deg);
-	}
+	to {transform: rotate(360deg); }
 }
+
 
 @keyframes scaling {
 	0%   {
