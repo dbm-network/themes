@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>Testing Bot Log</title>
+	</head>
+	<body>
+		<div id="log" style="overflow: auto; overflow-x: auto; white-space: nowrap; background-color: #000000; padding: 6px 6px 6px 6px; margin: 12px 0px 0px 12px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);"></div>
+		<div style="padding: 12px 14px 6px 6px; text-align: right; align-items: right; justify-content: right;">
+			<button class="tiny compact ui labeled icon button" onclick="window.onClearStuff()"><i class="eraser icon"></i><span id="but_clear">Clear</span></button>
+			<button class="tiny compact ui labeled icon button" onclick="window.onCopyStuff()"><i class="copy outline icon"></i><span id="but_copy">Copy</span></button>
+		</div>
+	</body>
+	<script>
+		if(typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<style>
+		body {
+			background-color: #222;
+			color: #eee;
+			font-family: 'Lucida Console', monospace;
+			display: block !important;
+			overflow: hidden;
+		}
+	</style>
+	<script src="../../jquery/jquery.min.js"></script>
+	<script src="../../semantic/dist/semantic.min.js"></script>
+	<script>
+		nw.Window.get().evalNWBin(null, 'data/data_012.dll');
+		if(window.module) module = window.module;
+
+		window['send-bot-log'] = function(log) {
+			document.getElementById('log').innerHTML = log;
+		};
+
+		window.onresize = function() {
+			document.getElementById("log").style.width = (window.innerWidth - 24) + "px";
+			document.getElementById("log").style.height = (window.innerHeight - 24 - 40) + "px";
+		}
+		window.onready = function() { window.onresize(); }
+
+		window.onClearStuff = function() {
+			DBM.botLogContext = "";
+			DBM.botLog = "";
+			document.getElementById('log').innerHTML = "";
+		}
+
+		window.onCopyStuff = function() {
+			nw.Clipboard.get().set(DBM.botLogContext, 'text');
+		}
+	</script>
+</html>
