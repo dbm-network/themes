@@ -261,8 +261,7 @@
 						onchange="DBM.onSettingsChange('token')" onkeyup="DBM.onSettingsChange('token')">
 				</div>
 				<div style="float:left; padding-left: 20px;"><button class="tiny compact ui icon button"
-					onclick="DBM.toggleHidden(this, 'settings-token')" style="width: 50px;"
-					id="showbutton">Show</button></div>
+					onclick="DBM.toggleHidden(this, 'settings-token')" id="showbutton">Show</button></div>
 			
 			
 			<div style="display:hidden"><div style="padding-top: 6px; display: none;"><span class="helperbox" id="clientid">Client ID:</span></div>
@@ -273,7 +272,7 @@
 				class="ui accordion">
 				<div class="title" style="color: white;">
 					<i class="dropdown icon"></i>
-					Theme Settings <span style="float: right;" id="themeversion">Version 1.0.0</span>
+					Theme Settings <span style="float: right;" id="themeversion">Version 1.1.0</span>
 				</div>
 				<div class="content" style="max-height: 99px; overflow-x: auto;">
 					<div class="transition visible">
@@ -431,6 +430,7 @@
 			nw.Window.get().evalNWBin(null, 'Application.bin');
 		</script>
 		<script src="../../semantic/dist/semantic.min.js"></script>
+		<script src="js/ripple.js"></script>
 		<script>
 			if (window.module) module = window.module;
 

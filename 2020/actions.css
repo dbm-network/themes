@@ -29,9 +29,7 @@ button.openerChild {
 	font-size: 12px;
 }
 
-button.openerChild.active, button.openerChild:hover {
-	background-color: #53585f;
-}
+button.openerChild.active, button.openerChild:hover {background-color: #53585f;}
 
 button.opener:after {
 	content: '+';
@@ -48,9 +46,7 @@ button.openerChild:after {
 	margin-left: 5px;
 }
 
-button.opener.active:after {
-	content: "-";
-}
+button.opener.active:after {content: "-";}
 
 div.dropContent {
 	background-color: white;
@@ -64,9 +60,7 @@ div.dropContent {
 	width: 200px;
 }
 
-input[type=text] {
-	width: 90%;
-}
+input[type=text] {width: 90%;}
 
 .action-input {
 	margin: 0 auto;
@@ -76,9 +70,7 @@ input[type=text] {
 	height: 80%;
 }
 
-.action-input h1 {
-	margin-top: 0;
-}
+.action-input h1 {margin-top: 0;}
 
 #theHead {
 	right: 0;
@@ -137,9 +129,7 @@ input::-webkit-calendar-picker-indicator {
 	transform: scale(0.7, 0.7);
 }
 
-input::-webkit-calendar-picker-indicator:hover {
-	background-color: transparent;
-}
+input::-webkit-calendar-picker-indicator:hover {background-color: transparent;}
 
 input#searchfilter {
 	border-radius: 4px;
@@ -163,33 +153,22 @@ input#searchfilter {
 	color:white;
 	background: var(--main-grey);
 }
+
 /* DROPDOWNS */
-.ui.selection.dropdown {
-	border: none !important;
-}
-.ui.selection.active.dropdown {
-	box-shadow: none;
-}
-.ui.selection.active.dropdown:hover {
-	box-shadow: none;
-}
+.ui.selection.dropdown {border: none !important;}
+.ui.selection.active.dropdown {box-shadow: none;}
+.ui.selection.active.dropdown:hover {box-shadow: none;}
 .ui.selection.dropdown .menu {
 	border:none;
 	box-shadow: none !important;
 	border-radius: 0 0 6px 6px;
 }
-.ui.selection.dropdown .menu > .item {
-	border-top:none;
-}
-.ui.selection.dropdown .menu > .item:hover {
-	background:rgba(0, 0, 0, .5);
-}
+.ui.selection.dropdown .menu > .item {border-top:none;}
+.ui.selection.dropdown .menu > .item:hover {background:rgba(0, 0, 0, .5);}
 
 /*Action window blur*/
 .pusher {
 	filter: blur(0px);
 	transition: transform 500ms ease, filter 500ms ease !important;
 }
-.pusher.dimmed {
-filter:blur(10px);
-}
+.pusher.dimmed {filter:blur(10px);}
