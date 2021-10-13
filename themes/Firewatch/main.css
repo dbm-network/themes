@@ -1,0 +1,522 @@
+p#settings-description {
+  color: #222;
+}
+
+#id_pages p#bot-links,
+#id_tabs_main p#bot-links {
+  border-radius: 0.2rem;
+  background-color: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  border-width: 0;
+  outline-width: 0;
+  transition: 0.2s;
+  width: 85%;
+  padding: 10px;
+}
+
+#id_pages input,
+#id_pages select,
+#id_tabs_main input,
+#id_tabs_main select {
+  border-radius: 0.2rem;
+  background-color: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  text-shadow: 1px 1px 6px black !important;
+  color: #fff;
+  border: 0px solid #fff !important;
+  border-width: 0;
+  outline-width: 0;
+  transition: 0.2s;
+}
+#id_pages input:focus,
+#id_pages input:active,
+#id_pages select:focus,
+#id_pages select:active,
+#id_tabs_main input:focus,
+#id_tabs_main input:active,
+#id_tabs_main select:focus,
+#id_tabs_main select:active {
+  box-shadow: 0px 0px 5px #fff;
+}
+#id_pages input::selection,
+#id_pages select::selection,
+#id_tabs_main input::selection,
+#id_tabs_main select::selection {
+  background: #b8dbff;
+}
+#id_pages input:focus,
+#id_pages select:focus,
+#id_tabs_main input:focus,
+#id_tabs_main select:focus {
+  outline-width: 0;
+}
+#id_pages input#name,
+#id_pages input#alias-input,
+#id_pages input#ename,
+#id_pages input#etemp,
+#id_pages input#etemp2,
+#id_pages select#name,
+#id_pages select#alias-input,
+#id_pages select#ename,
+#id_pages select#etemp,
+#id_pages select#etemp2,
+#id_tabs_main input#name,
+#id_tabs_main input#alias-input,
+#id_tabs_main input#ename,
+#id_tabs_main input#etemp,
+#id_tabs_main input#etemp2,
+#id_tabs_main select#name,
+#id_tabs_main select#alias-input,
+#id_tabs_main select#ename,
+#id_tabs_main select#etemp,
+#id_tabs_main select#etemp2 {
+  box-sizing: border-box;
+  display: block;
+  height: 28px;
+  padding-left: 8px;
+}
+#id_pages input.settings,
+#id_pages select.settings,
+#id_tabs_main input.settings,
+#id_tabs_main select.settings {
+  font-family: monospace;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  height: 28px;
+  padding-left: 8px;
+}
+#id_pages input.round,
+#id_pages select.round,
+#id_tabs_main input.round,
+#id_tabs_main select.round {
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  height: 28px;
+  padding-left: 8px;
+}
+
+#id_pages .ui.piled.segment::after,
+#id_tabs_main .ui.piled.segment::after,
+#id_pages .ui.piled.segment::before,
+#id_tabs_main .ui.piled.segment::before {
+  /* This removes the folded paper-like edges from the box */
+  background-color: rgba(0, 0, 0, 0);
+  content: "";
+  height: 0;
+  left: 0px;
+  width: 0;
+  border: 0;
+  box-shadow: "";
+}
+
+#id_pages .ui.piled.segment:first-of-type,
+#id_tabs_main .ui.piled.segment:first-of-type {
+  /* Reduces size of the box and applies a transition */
+  transition: all 0.2s;
+  height: 45px;
+  width: 85%;
+  border-radius: 0.2rem;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff !important;
+  border: 0px solid #fff !important;
+  border-width: 0;
+  outline-width: 0;
+}
+
+#id_pages .ui.piled.segment:first-of-type #settings-description,
+#id_tabs_main .ui.piled.segment:first-of-type #settings-description {
+  /* Hides the info as default */
+  display: none;
+  color: rgba(0, 0, 0, 0);
+}
+
+#id_pages .ui.piled.segment:first-of-type:hover > #settings-description,
+#id_tabs_main .ui.piled.segment:first-of-type:hover > #settings-description {
+  /* Shows the info when you hover your mouse over it */
+  display: block;
+  color: #fff !important;
+}
+
+#id_pages .ui.piled.segment:first-of-type:hover,
+#id_tabs_main .ui.piled.segment:first-of-type:hover {
+  /* Expands the box so you are able to see the text, and also makes the box slide open from the transition we added */
+  height: 125px;
+}
+
+#id_pages .ui #settingsheader,
+#id_tabs_main .ui #settingsheader {
+  color: #fff;
+}
+#id_pages .ui #settingsheader::after,
+#id_tabs_main .ui #settingsheader::after {
+  /* add "Info (hover)" to the end of "Settings" */
+  content: " Info (hover)";
+}
+
+#id_pages .ui.selection.dropdown,
+#id_tabs_main .ui.selection.dropdown {
+  user-select: none;
+  border: none;
+  box-shadow: none;
+}
+#id_pages .ui.selection.dropdown > .menu .item,
+#id_tabs_main .ui.selection.dropdown > .menu .item {
+  border-top: none;
+}
+#id_pages .ui.selection.dropdown > .menu .item:hover,
+#id_tabs_main .ui.selection.dropdown > .menu .item:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+#id_pages .ui.selection.dropdown > .menu .item:active,
+#id_pages .ui.selection.dropdown > .menu .item:focus,
+#id_pages .ui.selection.dropdown > .menu .item.active,
+#id_pages .ui.selection.dropdown > .menu .item.selected,
+#id_tabs_main .ui.selection.dropdown > .menu .item:active,
+#id_tabs_main .ui.selection.dropdown > .menu .item:focus,
+#id_tabs_main .ui.selection.dropdown > .menu .item.active,
+#id_tabs_main .ui.selection.dropdown > .menu .item.selected {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#id_pages .ui.fluid.dropdown.selection,
+#id_tabs_main .ui.fluid.dropdown.selection {
+  border-radius: 0.2rem;
+  background-color: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  text-shadow: 1px 1px 6px black !important;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#id_pages .ui.button,
+#id_tabs_main .ui.button {
+  color: #fff;
+  background: #ff7e4a;
+}
+#id_pages .ui.button:hover,
+#id_pages .ui.button:focus,
+#id_tabs_main .ui.button:hover,
+#id_tabs_main .ui.button:focus {
+  color: #fff;
+  background-color: #ff583d;
+}
+#id_pages .ui.button:active,
+#id_tabs_main .ui.button:active {
+  box-shadow: 0px 0px 5px #fff;
+  color: #fff;
+  background-color: #ff583d;
+}
+#id_pages .ui.button.active,
+#id_tabs_main .ui.button.active {
+  box-shadow: none;
+  color: #fff;
+  background-color: #7e0030;
+}
+
+#id_pages .ui.piled.segment:first-of-type #settings-description,
+#id_tabs_main .ui.piled.segment:first-of-type #settings-description {
+  display: none;
+}
+
+#id_pages
+  .ui.piled.segment
+  .ui.piled.segment:first-of-type
+  #settings-description:hover,
+#id_pages .ui.piled.segment:first-of-type #settings-description:focus,
+#id_tabs_main
+  .ui.piled.segment
+  .ui.piled.segment:first-of-type
+  #settings-description:hover,
+#id_tabs_main .ui.piled.segment:first-of-type #settings-description:focus {
+  display: block;
+}
+
+#id_pages .ui.multiple.dropdown > .label,
+#id_tabs_main .ui.multiple.dropdown > .label {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+  font-size: 1em;
+  padding: 0.35714286em 0.78571429em;
+  margin: 0.14285714rem 0.28571429rem 0.14285714rem 0em;
+  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+}
+
+input {
+  color: #e3e5e8;
+  background-color: #53585f;
+  padding-bottom: 2px;
+}
+input::selection {
+  background: #b8dbff;
+}
+input:focus {
+  outline-width: 0;
+}
+input#name,
+input#alias-input,
+input#ename,
+input#etemp,
+input#etemp2 {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  height: 28px;
+  padding-left: 8px;
+}
+input.settings {
+  font-family: monospace;
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  height: 28px;
+  padding-left: 8px;
+}
+input.round {
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  height: 28px;
+  padding-left: 8px;
+}
+
+body {
+  color: #fff;
+  background-color: #36393e;
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  overflow: hidden;
+  transition: 0.5s;
+}
+body.running {
+  background-color: #001427 !important;
+}
+
+a:link {
+  color: #99b3ff;
+}
+
+select#commands {
+  overflow: hidden;
+  height: 120px;
+}
+
+select#actions {
+  overflow: hidden;
+  position: static;
+}
+
+div.footer {
+  position: static;
+  float: right;
+  width: 100%;
+  height: 100%;
+  right: 0px;
+  bottom: 100px;
+  left: 220px;
+  /*top: 400px;*/
+  text-align: left;
+}
+
+div.infooter {
+  padding-top: 49px;
+}
+
+div.einfooter {
+  padding-top: 77px;
+}
+
+div.actionButtonDiv {
+  width: 90%;
+  padding: 10px 10px 10px 0px;
+  text-align: left;
+}
+
+button.actionButtons {
+  width: 120px;
+  padding-right: 20px;
+  padding-left: 20px;
+  float: right;
+}
+
+div#Commands,
+div#Events,
+div#Settings {
+  color: #fff;
+  text-shadow: 1px 1px 6px black !important;
+}
+
+div.action-holder,
+div.event-action-holder {
+  width: 240px;
+  float: left;
+  max-width: 240px;
+  padding-top: 22px;
+}
+
+div#id_tabs {
+  width: 100% !important;
+  padding: 0 20px 0 20px;
+}
+
+div.tabs {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+div.tabs button {
+  width: 33%;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 20px;
+  transition: 0.2s;
+}
+div.tabs button:hover {
+  background-color: #ddd;
+}
+div.tabs button.active {
+  background-color: #ccc;
+}
+
+div.myactions,
+div.emyactions {
+  border-radius: 0.2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 0px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 1px 1px 6px black !important;
+}
+div.myactions button,
+div.emyactions button {
+  color: #fff;
+  text-shadow: 1px 1px 6px black !important;
+  overflow: hidden;
+  width: 100%;
+  height: 25px;
+  padding: 3px 5px 3px 5px;
+  text-align: left;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.25);
+  float: left;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+div.myactions button:hover,
+div.emyactions button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+div.myactions button:focus,
+div.emyactions button:focus {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 0;
+}
+div.myactions button.active,
+div.emyactions button.active {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.page {
+  display: none;
+}
+
+textarea {
+  color: #e3e5e8;
+  background-color: #53585f;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  padding-left: 8px;
+}
+textarea:focus {
+  outline-width: 0;
+}
+textarea::selection {
+  background: #b8dbff;
+}
+
+select {
+  color: #e3e5e8;
+  background-color: #53585f;
+}
+
+button#a_tab_com,
+button#a_tab_eve,
+button#a_tab_sets {
+  background-color: #7e0030;
+}
+
+button#a_tab_com.active,
+button#a_tab_eve.active,
+button#a_tab_sets.active {
+  background-color: #ff7e4a;
+}
+button#a_tab_com.active:hover,
+button#a_tab_eve.active:hover,
+button#a_tab_sets.active:hover {
+  background-color: #ff7e4a;
+}
+
+button#a_tab_com:hover,
+button#a_tab_eve:hover,
+button#a_tab_sets:hover {
+  background-color: #ff583d;
+}
+
+select.round {
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  height: 28px;
+  padding-left: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #36393e;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #36393e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e0e1e2;
+}
+
+#aliases,
+#moduleManager {
+  height: 380px;
+  border-radius: 10px;
+  background-color: #36393e;
+  border: 2px solid black;
+}
+
+.modalChild {
+  height: 240px;
+  margin-left: 70px;
+  margin-top: 15px;
+  overflow-y: scroll;
+}
