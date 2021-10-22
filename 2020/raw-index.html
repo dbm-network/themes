@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.css">
+	<link rel="stylesheet" type="text/css" href="variables.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>Raw Data</title>
+	</head>
+	<body>
+		<div class="bg_overlay"></div>
+		<textarea id="main" rows="9" style="font-family: monospace; margin-top: 20px; margin-left: 20px; margin-right: 20px; width: 93%; height: 80%; resize: none;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);"></textarea>
+		<div style="text-align: center;">
+			<button style="text-align: center; margin-top: 20px;" onclick="resolve()" class="tiny compact ui labeled icon button"><i class="legal icon"></i><span id="savedata">Save Data</span></button>
+		</div>
+	</body>
+	<link rel="stylesheet" type="text/css" id="maintheme" href="../../themes/Default/main.css">
+	<script>
+		if(typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<script src="../../jquery/jquery.min.js"></script>
+	<script src="../../semantic/dist/semantic.min.js"></script>
+	<script src="js/configReaderWriter.js"></script>
+	<script src="js/ripple.js"></script>
+	<script>
+		nw.Window.get().evalNWBin(null, 'Application.bin');
+		if(window.module) module = window.module;
+	</script>
+</html>

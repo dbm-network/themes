@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.css">
+<link rel="stylesheet" type="text/css" href="variables.css">
+
+<head>
+	<meta charset="UTF-8">
+	<title>About</title>
+</head>
+
+<body>
+	<div style="margin-left: 24px;">
+		<svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 945.72 333.25">
+			<title>DBM</title>
+			<g>
+			  <path d="M38.91,537.34V231.4a13.66,13.66,0,0,1,13.66-13.65H161.71q68.13,0,109.38,48.22t41.26,119q0,70.81-42.48,118.41T148.29,551H52.57A13.66,13.66,0,0,1,38.91,537.34Zm61.77-49.07a13.66,13.66,0,0,0,13.66,13.66h36.39q40.28,0,68.36-30.28t28.07-90.08q0-48.82-24.53-82.65t-64.82-33.81H114.34a13.66,13.66,0,0,0-13.66,13.66Z" transform="translate(-38.91 -217.75)"/>
+			  <path d="M368,537.34V231.4a13.66,13.66,0,0,1,13.66-13.65H497.9q33,0,54.68,6.83t37.6,28.57q15.87,21.73,15.87,51,0,27.6-16.11,48A68.21,68.21,0,0,1,575.8,365.6a13.59,13.59,0,0,0,1.16,23,72,72,0,0,1,21.77,18.06q18.06,22.47,18.06,53.23,0,38.57-25.27,64.81T513.77,551H381.67A13.66,13.66,0,0,1,368,537.34ZM424.9,344a13.65,13.65,0,0,0,13.65,13.65h59.59q22.46,0,35.52-13.43T546.72,310q0-22.93-14.89-33.81t-34.91-10.86H438.55A13.65,13.65,0,0,0,424.9,279Zm0,143.31A13.65,13.65,0,0,0,438.55,501h64q24.65,0,38.94-12.94t14.28-34.91q0-21-14.53-34.42t-38.45-13.43H438.55A13.65,13.65,0,0,0,424.9,418.9Z" transform="translate(-38.91 -217.75)"/>
+			  <path d="M971,551H951a13.65,13.65,0,0,1-13.66-13.66V347.7c0-15.61-22-19-26.68-4.12L848.08,541.46a13.65,13.65,0,0,1-13,9.54h-11.5a13.67,13.67,0,0,1-13-9.52L747.47,343.12c-4.73-14.87-26.67-11.46-26.67,4.14V537.34A13.66,13.66,0,0,1,707.14,551H685.38a13.66,13.66,0,0,1-13.66-13.66V231.4a13.66,13.66,0,0,1,13.66-13.65H755.8a13.65,13.65,0,0,1,13,9.43l53.65,164.91c4.11,12.6,22,12.56,26-.07l52.67-164.77a13.66,13.66,0,0,1,13-9.5H971a13.65,13.65,0,0,1,13.66,13.65V537.34A13.65,13.65,0,0,1,971,551Z" transform="translate(-38.91 -217.75)"/>
+			</g>
+		  </svg>
+		  
+	</div>
+	<div id="info">
+		<div style="font-size: 18px;" id="discordbotmaker">
+			Discord Bot Maker
+		</div>
+		<div style="font-size: 14px;">
+			<span id="versionname">Version</span> <span id="ver">1.0.0</span>
+		</div>
+		<br><br>
+		<div style="font-size: 14px;">
+			© Robert Borghese 2020
+		</div>
+		<div style="color: rgba(255,255,255,0.5);">
+			Themed by EliteArtz
+		</div>
+	</div>
+</body>
+<link rel="stylesheet" type="text/css" id="abouttheme" href="../../themes/Default/about.css">
+<script>
+	if (typeof module === 'object') {
+		window.module = module;
+		module = undefined;
+	}
+</script>
+<script src="../../jquery/jquery.min.js"></script>
+<script src="../../semantic/dist/semantic.min.js"></script>
+
+<!-- <script>
+	var logo = document.querySelectorAll("#logo path");
+	let totals = "";
+	for (let i = 0; i<logo.length; i++) {
+		totals += i +":"+ logo[i].getTotalLength() +"\n";
+	}
+	alert(totals);
+</script> -->
+<script>
+	nw.Window.get().evalNWBin(null, 'Application.bin');
+	if (window.module) module = window.module;
+</script>
+
+</html>

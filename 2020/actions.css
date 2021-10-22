@@ -1,0 +1,174 @@
+#action-label {
+	padding: 10px 15px 10px 15px;
+	cursor: pointer;
+	outline: none;
+}
+
+button.opener {
+	background-color: #2f3236;
+	color: #eee;
+	cursor: pointer;
+	padding: 8px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 14px;
+	transition: 0.4s;
+}
+
+button.openerChild {
+	background-color: #242529;
+	color: #eee;
+	cursor: pointer;
+	padding: 6px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 12px;
+}
+
+button.openerChild.active, button.openerChild:hover {background-color: #53585f;}
+
+button.opener:after {
+	content: '+';
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+button.openerChild:after {
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+button.opener.active:after {content: "-";}
+
+div.dropContent {
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.ui.dropdown {
+	text-align: center;
+	width: 200px;
+}
+
+input[type=text] {width: 90%;}
+
+.action-input {
+	margin: 0 auto;
+	padding-top: 6px;
+	max-width: 640px;
+	width: 94%;
+	height: 80%;
+}
+
+.action-input h1 {margin-top: 0;}
+
+#theHead {
+	right: 0;
+	top: 0;
+	left: 0;
+	background-color: #242629;
+	text-align: center;
+	position: relative;
+}
+
+.action-footer {
+	width: 100%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #242629;
+	text-align: center;
+}
+
+#leSideBarContent {
+	margin-right: 10px;
+	width: 220px;
+}
+
+#leSideBar {
+	width: 232px;
+	margin: 10px;
+	background: #2f3236 !important;
+}
+
+#leSideBar::-webkit-scrollbar {
+	width: 8px;
+	background-color: #242629;
+	transition: all 250ms ease-in-out;
+	scroll-behavior: smooth;
+	scrollbar-width:0px;
+}
+
+#leSideBar::-webkit-scrollbar-track {
+	/*box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+	border-radius: 10px;
+	background-color: #242629;
+}
+
+#leSideBar::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	/*box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
+	background-color: #555;
+}
+
+input::-webkit-calendar-picker-indicator {
+	opacity: 100;
+	background-color: transparent;
+	transform: scale(0.7, 0.7);
+}
+
+input::-webkit-calendar-picker-indicator:hover {background-color: transparent;}
+
+input#searchfilter {
+	border-radius: 4px;
+	padding: 12px !important;
+	height: 22px;
+	border:0 solid transparent;
+	background-color: rgba(0,0,0,0.2);
+}
+
+/* EXTRAS ~ EliteArtz */
+/* White Buttons */
+.ui.button {
+	color:white;
+	background: var(--main-grey);
+}
+.ui.button:hover {
+	color:white;
+	background: var(--main-grey-hover);
+}
+.ui.button:focus {
+	color:white;
+	background: var(--main-grey);
+}
+
+/* DROPDOWNS */
+.ui.selection.dropdown {border: none !important;}
+.ui.selection.active.dropdown {box-shadow: none;}
+.ui.selection.active.dropdown:hover {box-shadow: none;}
+.ui.selection.dropdown .menu {
+	border:none;
+	box-shadow: none !important;
+	border-radius: 0 0 6px 6px;
+}
+.ui.selection.dropdown .menu > .item {border-top:none;}
+.ui.selection.dropdown .menu > .item:hover {background:rgba(0, 0, 0, .5);}
+
+/*Action window blur*/
+.pusher {
+	filter: blur(0px);
+	transition: transform 500ms ease, filter 500ms ease !important;
+}
+.pusher.dimmed {filter:blur(10px);}

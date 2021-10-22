@@ -1,0 +1,39 @@
+body {
+	color: white;
+	background-color: var(--bg);
+}
+#logo {
+	padding-top: 100px;
+	width:75%; 
+	fill:transparent;
+	overflow: unset;
+}
+#logo path {animation: buildText 4s ease forwards; stroke: white; stroke-linecap: round; stroke-width: 15px;}
+#logo path:nth-child(1) {
+	stroke-dashoffset: 1100;
+	stroke-dasharray: 1100;
+}
+#logo path:nth-child(2) {
+	stroke-dashoffset:1100;
+	stroke-dasharray:1100;
+}
+#logo path:nth-child(3) {
+	stroke-dashoffset:2244;
+	stroke-dasharray:2350;
+}
+@keyframes buildText {
+	to {
+		stroke-dashoffset: 90;
+	}
+}
+@keyframes fillW {
+	to {
+		fill:white;
+	}
+}
+#info {
+	width:100%;
+	position: fixed; 
+	bottom: 0; 
+	text-align:center;
+}
