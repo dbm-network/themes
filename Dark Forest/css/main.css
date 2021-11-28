@@ -1,5 +1,5 @@
 p#settings-description {
-	color: #222;
+	color: rgb(255, 255, 255);
 }
 
 .ui.multiple.dropdown > .label {
@@ -239,7 +239,7 @@ textarea {
 
 textarea:hover {
 	border: 1px solid #2565b3;
-	color: 
+	color: white
 }
 
 textarea:focus {
@@ -383,5 +383,3 @@ select.round:hover, select.round:active {
 	opacity: .875;
 	color: white;
 }
-
-
