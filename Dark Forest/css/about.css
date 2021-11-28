@@ -1,5 +1,6 @@
 body {
-	background: url('../css/images/forest.jpg');
+	background: url('./css/images/forest.jpg');
+	background-position: center top;
 }
 
 img {
