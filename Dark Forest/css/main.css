@@ -1,5 +1,5 @@
 p#settings-description {
-	color: #222;
+	color: rgb(255, 255, 255);
 }
 
 .ui.multiple.dropdown > .label {
@@ -17,12 +17,13 @@ p#settings-description {
 }
 
 body {
-	color: #ccc;
-	background: url('../css/images/forest.jpg');
-	background-position: center middle;
-	background-size: 150%;
+	background: url('./css/images/forest.jpg');
+	background-position: center;
+	background-size: auto;
 	overflow: hidden;
 	transition: 0.5s;
+	background-repeat:no-repeat;
+
 }
 
 body.running {
@@ -238,7 +239,7 @@ textarea {
 
 textarea:hover {
 	border: 1px solid #2565b3;
-	color: 
+	color: white
 }
 
 textarea:focus {
@@ -382,5 +383,3 @@ select.round:hover, select.round:active {
 	opacity: .875;
 	color: white;
 }
-
-
