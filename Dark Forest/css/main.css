@@ -17,12 +17,13 @@ p#settings-description {
 }
 
 body {
-	color: #ccc;
-	background: url('../css/images/forest.jpg');
-	background-position: center middle;
-	background-size: 150%;
+	background: url('./css/images/forest.jpg');
+	background-position: center;
+	background-size: auto;
 	overflow: hidden;
 	transition: 0.5s;
+	background-repeat:no-repeat;
+
 }
 
 body.running {
